@@ -6,9 +6,8 @@ using UnityEngine;
 namespace _Playable.Runtime.View
 {
     /// <summary>
-    /// Nhan vat nu, nam trong world space tren <see cref="PlayableMainMap"/>. Skeleton <c>npc_*</c> hien
-    /// khong co animation gian du, nen buoc "gian roi bo di" duoc dien ta bang tween truot ra khoi man hinh
-    /// - xem ghi chu TODO(asset) trong <see cref="PlayableAnimationNames.Woman.Anger"/>.
+    /// Nhan vat nu, nam trong world space tren <see cref="PlayableMainMap"/>. Skeleton co san cac animation
+    /// idle / angry / kiss, phat qua <see cref="PlayableAnimationNames.Woman"/>.
     ///
     /// Moi khoang lech (offset) tinh bang don vi world, khong phai pixel.
     /// </summary>
@@ -35,8 +34,8 @@ namespace _Playable.Runtime.View
         }
 
         /// <summary>
-        /// Gian roi bo di. Khi co animation gian that thi <see cref="PlayableAnimationNames.Woman.Anger"/>
-        /// se tro dung ten va doan nay tu chay dung - phan tween truot ra van giu.
+        /// Gian roi bo di: phat animation <see cref="PlayableAnimationNames.Woman.Anger"/> ("angry")
+        /// dong thoi truot ra khoi man hinh.
         /// </summary>
         public IEnumerator PlayAngerAndLeave(float offsetX, float duration)
         {

@@ -88,7 +88,6 @@ logic:
 
 | Thieu | Dang tam dung | Sua o dau |
 |---|---|---|
-| Animation nu gian du | `anim_lover_idle` + tween truot ra khoi man hinh | `PlayableAnimationNames.Woman.Anger` |
 | Thoai nam khoc | `sfx_talk.mp3` | Inspector `PlayableAudio` tren `PB_PlayableRoot`, dong `ManCrying` |
 | Thoai nam vui | `sfx_talk.mp3` | dong `ManHappy` |
 | Thoai nu gian | `sfx_talk.mp3` | dong `WomanAngry` |

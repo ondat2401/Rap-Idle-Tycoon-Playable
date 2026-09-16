@@ -3328,6 +3328,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 100f5fd32f95a964793019ba89fc6b9c, type: 2}
     - target: {fileID: 6417291008060347610, guid: f5208c27bd243384eb9af965ae4a7269, type: 3}
+      propertyPath: _animationName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6417291008060347610, guid: f5208c27bd243384eb9af965ae4a7269, type: 3}
       propertyPath: skeletonDataAsset
       value: 
       objectReference: {fileID: 11400000, guid: f82a88ca36db8c547bfde983af7ee2b6, type: 2}
@@ -5245,6 +5249,18 @@ PrefabInstance:
     - target: {fileID: 7487585107202622548, guid: b6a9b1cc4ba957d428c88bcaa59b137a, type: 3}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7635165100019396670, guid: b6a9b1cc4ba957d428c88bcaa59b137a, type: 3}
+      propertyPath: m_Text
+      value: Tap to make money
+      objectReference: {fileID: 0}
+    - target: {fileID: 8756943008688676160, guid: b6a9b1cc4ba957d428c88bcaa59b137a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -80
+      objectReference: {fileID: 0}
+    - target: {fileID: 8756943008688676160, guid: b6a9b1cc4ba957d428c88bcaa59b137a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

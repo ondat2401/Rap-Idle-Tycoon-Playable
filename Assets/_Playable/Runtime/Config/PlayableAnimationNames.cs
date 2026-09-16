@@ -31,7 +31,8 @@ namespace _Playable.Runtime.Config
         }
 
         /// <summary>
-        /// Nhan vat nu - skeleton <c>npc_1..npc_5</c> (_Project/Addressables/Spine/NPC_*).
+        /// Nhan vat nu - skeleton lover_3 / lover_4 (Art/Spine/Lover*).
+        /// Animation co san: idle, angry, happy, sad, dance, kiss.
         /// </summary>
         public static class Woman
         {
@@ -39,18 +40,16 @@ namespace _Playable.Runtime.Config
             public const string Idle = "idle";
 
             /// <summary>
-            /// Ban goc: "Anger".
-            /// TODO(asset): skeleton npc_* hien KHONG co animation gian du. Tam tro ve idle - phan "gian"
-            /// duoc the hien bang bong bong gian + tween truot ra khoi man hinh trong PlayableWomanView.
-            /// Khi co file Spine moi thi doi chuoi nay thanh ten animation that (vd "anim_lover_angry").
+            /// Ban goc: "Anger". Skeleton co san animation "angry" - phat luc nu gian roi bo di,
+            /// ket hop bong bong gian + tween truot ra khoi man hinh trong PlayableWomanView.
             /// </summary>
-            public const string Anger = "idle";
+            public const string Anger = "angry";
 
-            /// <summary>Ban goc: "ComeBack". Dung anim chao mung khi quay lai.</summary>
+            /// <summary>Ban goc: "ComeBack". Phat "kiss" mot lan luc quay lai lam hoa.</summary>
             public const string ComeBack = "kiss";
 
-            /// <summary>Ban goc: "ComeBack-Idle".</summary>
-            public const string ComeBackIdle = "kiss";
+            /// <summary>Ban goc: "ComeBack-Idle". Loop "happy" - idle vui ve sau khi quay lai.</summary>
+            public const string ComeBackIdle = "happy";
         }
     }
 }
