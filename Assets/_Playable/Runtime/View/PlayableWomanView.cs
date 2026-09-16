@@ -66,6 +66,19 @@ namespace _Playable.Runtime.View
                 this);
         }
 
+        /// <summary>Phan ung khi nguoi choi tha thu: hon (animation "kiss").</summary>
+        public IEnumerator PlayForgive()
+        {
+            yield return this.PlayOnce(PlayableAnimationNames.Woman.ComeBack,
+                PlayableAnimationNames.Woman.ComeBackIdle);
+        }
+
+        /// <summary>Phan ung khi nguoi choi khong tha thu: gian (animation "angry").</summary>
+        public void PlayReject()
+        {
+            this.PlayLoop(PlayableAnimationNames.Woman.Anger);
+        }
+
         private void CacheHome()
         {
             if (this._hasHome)

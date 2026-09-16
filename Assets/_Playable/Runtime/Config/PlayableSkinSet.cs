@@ -35,6 +35,13 @@ namespace _Playable.Runtime.Config
         }
     }
 
+    /// <summary>Hai bo skin khoi dau cua nhan vat nam, chon 1 trong 2 luc init.</summary>
+    public enum PlayableManSkinOption
+    {
+        SkinA = 0,
+        SkinB = 1
+    }
+
     /// <summary>Ten skin co san trong skeleton <c>character1</c>, dung lam gia tri mac dinh.</summary>
     public static class PlayableSkinNames
     {

@@ -103,10 +103,17 @@ namespace Amanotes.MagicTilesCore
 
         private void Update()
         {
+#if UNITY_LUNA
+            // Luna Playworks KHONG ho tro Touch API (Input.touchCount / Input.GetTouch). Theo tai lieu
+            // Luna, phai dung mouse input - plugin tu map touch cua thiet bi mobile thanh su kien chuot.
+            // https://docs.lunalabs.io/docs/playable/common-issues/input/playable-does-not
+            ProcessMouse();
+#else
             if (Input.touchSupported && Input.touchCount > 0)
                 ProcessTouches();
             else
                 ProcessMouse();
+#endif
         }
 
         private void ProcessTouches()
@@ -115,6 +122,9 @@ namespace Amanotes.MagicTilesCore
             {
                 Touch touch = Input.GetTouch(i);
                 Vector2 screenPos = touch.position;
+                if (!IsValidScreenPos(screenPos))
+                    continue;
+
                 Vector3 worldPos = ScreenToWorld(screenPos);
 
                 switch (touch.phase)
@@ -138,15 +148,42 @@ namespace Amanotes.MagicTilesCore
 
         private void ProcessMouse()
         {
+            bool down = Input.GetMouseButtonDown(0);
+            bool held = Input.GetMouseButton(0);
+            bool up = Input.GetMouseButtonUp(0);
+
+            // Chi xu ly khi that su co tuong tac. Ngoai luc do Input.mousePosition co the la gia tri
+            // khong hop le (vd (-inf, inf) tren thiet bi cam ung / khi con tro ngoai cua so), lam
+            // Camera.ScreenToWorldPoint nem "Screen position out of view frustum".
+            if (!down && !held && !up)
+                return;
+
             Vector2 screenPos = Input.mousePosition;
+            if (!IsValidScreenPos(screenPos))
+                return;
+
             Vector3 worldPos = ScreenToWorld(screenPos);
 
-            if (Input.GetMouseButtonDown(0))
+            if (down)
                 Begin(MouseFingerId, screenPos, worldPos);
-            else if (Input.GetMouseButton(0))
-                Move(MouseFingerId, screenPos, worldPos);
-            else if (Input.GetMouseButtonUp(0))
+            else if (up)
                 End(MouseFingerId, screenPos, worldPos, cancelled: false);
+            else
+                Move(MouseFingerId, screenPos, worldPos);
+        }
+
+        /// <summary>
+        /// Loc vi tri man hinh khong hop le (NaN / vo cung / nam ngoai vung camera). Tranh nem loi
+        /// tu Camera.ScreenToWorldPoint.
+        /// </summary>
+        private bool IsValidScreenPos(Vector2 screenPos)
+        {
+            if (float.IsNaN(screenPos.x) || float.IsNaN(screenPos.y) ||
+                float.IsInfinity(screenPos.x) || float.IsInfinity(screenPos.y))
+                return false;
+
+            return screenPos.x >= 0f && screenPos.y >= 0f &&
+                   screenPos.x <= Screen.width && screenPos.y <= Screen.height;
         }
 
         private void Begin(int fingerId, Vector2 screenPos, Vector3 worldPos)

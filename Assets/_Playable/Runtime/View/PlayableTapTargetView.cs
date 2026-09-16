@@ -1,5 +1,6 @@
 using System.Collections;
 using _Playable.Runtime.Core;
+using Amanotes.MagicTilesCore;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,7 +14,7 @@ namespace _Playable.Runtime.View
     [RequireComponent(typeof(RectTransform))]
     public sealed class PlayableTapTargetView : MonoBehaviour
     {
-        [SerializeField] private Button _button;
+        [SerializeField] private UIButtonTouch _button;
         [SerializeField] private RectTransform _icon;
         [SerializeField] private RectTransform _ring;
         [SerializeField] private CanvasGroup _ringGroup;
@@ -36,14 +37,14 @@ namespace _Playable.Runtime.View
         {
             if (this._button == null)
             {
-                this._button = this.GetComponent<Button>();
+                this._button = this.GetComponent<UIButtonTouch>();
             }
 
             this.EnsureCached();
 
             if (this._button != null)
             {
-                this._button.onClick.AddListener(this.HandleClick);
+                this._button.OnClick += this.HandleClick;
             }
 
             if (this._ringGroup != null)
@@ -81,7 +82,7 @@ namespace _Playable.Runtime.View
         {
             if (this._button != null)
             {
-                this._button.onClick.RemoveListener(this.HandleClick);
+                this._button.OnClick -= this.HandleClick;
             }
         }
 
@@ -121,7 +122,7 @@ namespace _Playable.Runtime.View
         {
             if (this._button != null)
             {
-                this._button.interactable = interactable;
+                this._button.Interactable = interactable;
             }
         }
 

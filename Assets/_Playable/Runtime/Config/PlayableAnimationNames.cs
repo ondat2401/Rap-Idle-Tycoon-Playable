@@ -49,7 +49,10 @@ namespace _Playable.Runtime.Config
             public const string ComeBack = "kiss";
 
             /// <summary>Ban goc: "ComeBack-Idle". Loop "happy" - idle vui ve sau khi quay lai.</summary>
-            public const string ComeBackIdle = "happy";
+            public const string ComeBackIdle = "happy_idle";
+            public const string Dance = "dance";
+            
+
         }
     }
 }

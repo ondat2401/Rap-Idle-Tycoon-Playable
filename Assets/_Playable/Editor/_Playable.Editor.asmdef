@@ -7,7 +7,8 @@
         "spine-unity-editor",
         "spine-csharp",
         "Unity.TextMeshPro",
-        "UnityEngine.UI"
+        "UnityEngine.UI",
+        "Amanotes.GUI.Runtime"
     ],
     "includePlatforms": [
         "Editor"

@@ -1,3 +1,4 @@
+using Spine.Unity;
 using UnityEngine;
 
 namespace _Playable.Runtime.Config
@@ -45,9 +46,27 @@ namespace _Playable.Runtime.Config
         [SerializeField] private float _emojiDuration = 0.5f;
 
         [Header("Skin nhan vat nam")]
-        [Tooltip("Bo skin luc mo dau - nhan vat con ngheo. Ten phai co trong skeleton (mic_/outfit_/head_/jewel_).")]
+        [Tooltip("Chon 1 trong 2 bo skeleton + skin khoi dau ap cho nhan vat nam luc init.")]
         [SerializeField]
-        private PlayableSkinSet _startSkin = new PlayableSkinSet("mic_1", "outfit_3", "head_1", "jewel_3");
+        [LunaPlaygroundField("Man",0,"Skin Config")] 
+
+        private PlayableManSkinOption _startSkinOption = PlayableManSkinOption.SkinA;
+
+        [Tooltip("Skeleton (SkeletonDataAsset) tuong ung voi Skin A.")]
+        [SerializeField]
+        private SkeletonDataAsset _skeletonA;
+
+        [Tooltip("Skeleton (SkeletonDataAsset) tuong ung voi Skin B.")]
+        [SerializeField]
+        private SkeletonDataAsset _skeletonB;
+
+        [Tooltip("Bo skin A luc mo dau. Ten phai co trong skeleton (mic_/outfit_/head_/jewel_).")]
+        [SerializeField]
+        private PlayableSkinSet _startSkinA = new PlayableSkinSet("mic_1", "outfit_3", "head_1", "jewel_3");
+
+        [Tooltip("Bo skin B luc mo dau. Ten phai co trong skeleton (mic_/outfit_/head_/jewel_).")]
+        [SerializeField]
+        private PlayableSkinSet _startSkinB = new PlayableSkinSet("mic_2", "outfit_5", "head_2", "jewel_5");
 
         [Tooltip("Cac bo skin ung voi cac lua chon quan ao. Ten phai co trong skeleton hien tai.")]
         [SerializeField]
@@ -90,7 +109,16 @@ namespace _Playable.Runtime.Config
 
         public float EmojiDuration => this._emojiDuration;
 
-        public PlayableSkinSet StartSkin => this._startSkin;
+        /// <summary>Bo skin khoi dau da chon (theo <see cref="_startSkinOption"/>).</summary>
+        public PlayableSkinSet StartSkin =>
+            this._startSkinOption == PlayableManSkinOption.SkinB ? this._startSkinB : this._startSkinA;
+
+        /// <summary>Enum chon bo skin khoi dau cho nhan vat nam.</summary>
+        public PlayableManSkinOption StartSkinOption => this._startSkinOption;
+
+        /// <summary>Skeleton khoi dau da chon (theo <see cref="_startSkinOption"/>).</summary>
+        public SkeletonDataAsset StartSkeleton =>
+            this._startSkinOption == PlayableManSkinOption.SkinB ? this._skeletonB : this._skeletonA;
 
         /// <summary>Gia cua hai lua chon ban gai, theo dung thu tu nut trong nhom.</summary>
         public long GetGirlPrice(int index)
@@ -102,7 +130,7 @@ namespace _Playable.Runtime.Config
         {
             if (this._clothesSkins == null || this._clothesSkins.Length == 0)
             {
-                return this._startSkin;
+                return this.StartSkin;
             }
 
             int clamped = Mathf.Clamp(index, 0, this._clothesSkins.Length - 1);

@@ -85,9 +85,10 @@ namespace _Playable.Runtime.View
             }
         }
 
-        /// <summary>Ap bo skin khoi dau va bieu cam binh thuong.</summary>
-        public void Initialize(PlayableSkinSet startSkin)
+        /// <summary>Ap skeleton (neu co), bo skin khoi dau va bieu cam binh thuong.</summary>
+        public void Initialize(PlayableSkinSet startSkin, SkeletonDataAsset skeleton = null)
         {
+            this.SetSkeletonData(skeleton);
             this.BeginAnimation();
             this._currentSet = startSkin;
             this._currentEmotion = this._emotionNormal;

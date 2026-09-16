@@ -5,7 +5,8 @@
         "spine-unity",
         "spine-csharp",
         "Unity.TextMeshPro",
-        "UnityEngine.UI"
+        "UnityEngine.UI",
+        "Amanotes.GUI.Runtime"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

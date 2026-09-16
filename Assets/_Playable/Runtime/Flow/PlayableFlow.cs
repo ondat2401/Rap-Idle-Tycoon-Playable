@@ -3,6 +3,7 @@ using System.Collections;
 using _Playable.Runtime.Config;
 using _Playable.Runtime.Core;
 using _Playable.Runtime.View;
+using Amanotes.MagicTilesCore;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -67,7 +68,7 @@ namespace _Playable.Runtime.Flow
         [SerializeField] private GameObject _endCard;
 
         [Tooltip("Bam bat ky luc nao cung ket thuc playable - giong logo va nut Download ban goc.")]
-        [SerializeField] private Button[] _exitButtons = new Button[0];
+        [SerializeField] private UIButtonTouch[] _exitButtons = new UIButtonTouch[0];
 
         private readonly PlayableEventBus _bus = new PlayableEventBus();
 
@@ -92,11 +93,11 @@ namespace _Playable.Runtime.Flow
 
         private void OnDestroy()
         {
-            foreach (Button button in this._exitButtons)
+            foreach (UIButtonTouch button in this._exitButtons)
             {
                 if (button != null)
                 {
-                    button.onClick.RemoveListener(this.RequestExit);
+                    button.OnClick -= this.RequestExit;
                 }
             }
 
@@ -145,16 +146,16 @@ namespace _Playable.Runtime.Flow
             this._bus.Subscribe(PlayableSignal.Touch, this.HandleTouch);
             this._hud.MoneyFull += this.HandleMoneyFull;
 
-            foreach (Button button in this._exitButtons)
+            foreach (UIButtonTouch button in this._exitButtons)
             {
                 if (button != null)
                 {
-                    button.onClick.AddListener(this.RequestExit);
+                    button.OnClick += this.RequestExit;
                 }
             }
 
             this._stage.ResetToInitial();
-            this._stage.Man.Initialize(this._config.StartSkin);
+            this._stage.Man.Initialize(this._config.StartSkin, this._config.StartSkeleton);
 
             this.ApplyTextConfig();
 
@@ -465,6 +466,20 @@ namespace _Playable.Runtime.Flow
 
             this._guideHand?.ClearTargets();
             this._pardonGroup.Hide();
+
+            // Phan ung cua girl theo nut da chon: nut 1 (index 0) -> "kiss", nut 2 (index 1) -> "angry".
+            PlayableWomanView woman = this._stage.Woman;
+            if (woman != null)
+            {
+                if (this._pardonGroup.SelectedIndex == 0)
+                {
+                    yield return woman.PlayForgive();
+                }
+                else
+                {
+                    woman.PlayReject();
+                }
+            }
         }
 
         /// <summary>Hien nhom nut, cho chon, tru tien. Caller doc <c>group.SelectedIndex</c> sau do.</summary>

@@ -22,8 +22,8 @@ namespace _Playable.Editor
         private static readonly string[] Targets =
         {
             PlayableBuildUtility.ArtRoot + "/Spine/Man/character1.png",
-            PlayableBuildUtility.ArtRoot + "/Spine/Woman_1/npc_1.png",
-            PlayableBuildUtility.ArtRoot + "/Spine/Woman_2/npc_2.png"
+            PlayableBuildUtility.ArtRoot + "/Spine/Lover3/lover_3.png",
+            PlayableBuildUtility.ArtRoot + "/Spine/Lover4/lover_4.png"
         };
 
         [MenuItem("Tools/Playable/Optimize Spine Textures")]

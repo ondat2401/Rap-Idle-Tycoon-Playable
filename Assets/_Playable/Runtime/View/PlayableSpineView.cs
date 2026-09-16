@@ -50,6 +50,31 @@ namespace _Playable.Runtime.View
             }
         }
 
+        /// <summary>
+        /// Doi SkeletonDataAsset luc runtime (vd chon skeleton A/B tu config) roi khoi tao lai.
+        /// Bo qua neu asset null hoac trung voi asset hien tai.
+        /// </summary>
+        public void SetSkeletonData(SkeletonDataAsset dataAsset)
+        {
+            if (dataAsset == null || this.SpineRenderer == null)
+            {
+                return;
+            }
+
+            if (this.SpineRenderer.skeletonDataAsset == dataAsset && this.SpineRenderer.valid)
+            {
+                return;
+            }
+
+            this.SpineRenderer.skeletonDataAsset = dataAsset;
+            this.SpineRenderer.Initialize(true);
+
+            if (this.SpineAnimation != null)
+            {
+                this.SpineAnimation.Initialize(true);
+            }
+        }
+
         /// <summary>Phat animation lap tren track 0.</summary>
         public void PlayLoop(string animationName)
         {

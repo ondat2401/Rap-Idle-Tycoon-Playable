@@ -4,6 +4,7 @@ using _Playable.Runtime.Config;
 using _Playable.Runtime.Core;
 using _Playable.Runtime.Flow;
 using _Playable.Runtime.View;
+using Amanotes.MagicTilesCore;
 using Spine.Unity;
 using UnityEditor;
 using UnityEditor.SceneManagement;
@@ -28,6 +29,7 @@ namespace _Playable.Editor
         private const string Root = "Assets/_Playable";
         private const string PrefabDir = Root + "/Prefabs";
         private const string ConfigPath = Root + "/Config/PlayableConfig.asset";
+        private const string AudioConfigPath = Root + "/Config/PlayableAudioConfig.asset";
         private const string ScenePath = Root + "/Scenes/PlayableDemo.unity";
         private const string FontPath = "Assets/TextMesh Pro/Fonts/LiberationSans.ttf";
 
@@ -245,8 +247,8 @@ namespace _Playable.Editor
             PlayableManView man = BuildMan(root);
             var women = new[]
             {
-                BuildWoman(root, "woman_1", "lover_1"),
-                BuildWoman(root, "woman_2", "lover_2")
+                BuildWoman(root, "woman_1", "lover_3"),
+                BuildWoman(root, "woman_2", "lover_4")
             };
 
             Util.SetRef(map, "_man", man);
@@ -310,8 +312,8 @@ namespace _Playable.Editor
             background.type = Image.Type.Sliced;
             background.raycastTarget = true;
 
-            Button button = go.AddComponent<Button>();
-            button.targetGraphic = background;
+            // Luna khong dung EventSystem/Button dang tin cay - dung UIButtonTouch (TouchDispatcher).
+            UIButtonTouch button = go.AddComponent<UIButtonTouch>();
 
             Image icon = Util.NewImage("Icon", rect, null, false);
             Util.Anchor(icon.rectTransform, new Vector2(0.5f, 0.5f), new Vector2(0f, 40f),
@@ -394,6 +396,7 @@ namespace _Playable.Editor
 
             CreateCamera();
             CreateEventSystem();
+            CreateTouchDispatcher();
 
             var rootGo = new GameObject("PB_PlayableRoot");
             var audio = rootGo.AddComponent<PlayableAudio>();
@@ -433,7 +436,7 @@ namespace _Playable.Editor
             Dictionary<string, PlayableChoiceGroup> groups = BuildChoiceGroups(canvasRect, buttonPrefab);
             (PlayableEmojiSpawner Emoji, PlayablePraiseView Praise) fx = BuildFx(canvasRect, emojiPrefabs);
             PlayableGuideHand guideHand = BuildGuideHand(canvasRect);
-            (GameObject Card, Button[] Buttons) endCard = BuildEndCard(canvasRect);
+            (GameObject Card, UIButtonTouch[] Buttons) endCard = BuildEndCard(canvasRect);
             PlayableFadeOverlay fade = BuildFade(canvasRect);
 
             Util.SetRef(flow, "_config", config);
@@ -519,6 +522,17 @@ namespace _Playable.Editor
                 "[PlayableBuilder] Khong tim thay InputSystemUIInputModule - hay tu them input module vao EventSystem.");
         }
 
+        /// <summary>
+        /// Router input Luna-compatible (legacy Input) cho cac nut UIButtonTouch. Thay cho EventSystem
+        /// vi Luna Playworks khong chuyen input qua EventSystem/InputModule mot cach tin cay.
+        /// </summary>
+        private static void CreateTouchDispatcher()
+        {
+            var go = new GameObject(nameof(TouchDispatcher));
+            var dispatcher = go.AddComponent<TouchDispatcher>();
+            Util.SetRef(dispatcher, "raycastCamera", Camera.main);
+        }
+
         // ------------------------------------------------------------------ stage
 
         private static PlayableStageView BuildStage(RectTransform parent, PlayableMainMap map)
@@ -565,15 +579,18 @@ namespace _Playable.Editor
             return view;
         }
 
-        private static PlayableWomanView BuildWoman(Transform parent, string name, string npc)
+        private static PlayableWomanView BuildWoman(Transform parent, string name, string skeleton)
         {
             var holder = new GameObject(name);
             holder.transform.SetParent(parent, false);
             holder.transform.localPosition = WomanPosition;
             var view = holder.AddComponent<PlayableWomanView>();
 
+            // Bo layout thuc te: Assets/_Playable/Art/Spine/Lover{N}/lover_{N}_SkeletonData.asset.
+            // "lover_3" -> folder "Lover3", file "lover_3_SkeletonData.asset".
+            string folder = "Lover" + skeleton.Replace("lover_", string.Empty);
             var dataAsset = Util.Load<SkeletonDataAsset>(
-                $"{Util.ArtRoot}/Spine/Woman_{npc.Replace("npc_", string.Empty)}/{npc}_SkeletonData.asset");
+                $"{Util.ArtRoot}/Spine/{folder}/{skeleton}_SkeletonData.asset");
             AttachSpine(holder.transform, view, dataAsset);
 
             holder.SetActive(false);
@@ -610,6 +627,12 @@ namespace _Playable.Editor
             skeletonRenderer.skeletonDataAsset = dataAsset;
             Util.SetBool(skeletonAnimation, "wasDeprecatedTransferred", true);
 
+            // Xoa animation khoi tao mac dinh cua SkeletonAnimation. Neu de trong, mot so
+            // SkeletonDataAsset se tu phat animation dau tien trong skeleton (vd "dance") khi
+            // Initialize, ghi de len state cuoi ("happy") ma flow set. Ep ve rong de chi flow
+            // (PlayableWomanView / PlayableManView) moi duoc quyet dinh animation.
+            Util.SetString(skeletonAnimation, "_animationName", string.Empty);
+
             MeshRenderer meshRenderer = go.GetComponent<MeshRenderer>();
             if (meshRenderer == null)
             {
@@ -636,9 +659,9 @@ namespace _Playable.Editor
             hit.color = new Color(1f, 1f, 1f, 0f);
             hit.raycastTarget = true;
 
-            Button button = rect.gameObject.AddComponent<Button>();
-            button.targetGraphic = hit;
-            button.transition = Selectable.Transition.None;
+            // Luna-compatible touch. Tat press-scale vi view tu quan ly tween (PopIn/Disappear/Spin).
+            UIButtonTouch button = rect.gameObject.AddComponent<UIButtonTouch>();
+            Util.SetBool(button, "scaleOnPress", false);
 
             Image glow = Util.NewImage("Glow", rect, Util.LoadSprite("Fx", "unit"), false);
             Util.Anchor(glow.rectTransform, new Vector2(0.5f, 0.5f), Vector2.zero, new Vector2(260f, 260f));
@@ -913,7 +936,7 @@ namespace _Playable.Editor
 
         // ------------------------------------------------------------------ end card + fade
 
-        private static (GameObject, Button[]) BuildEndCard(RectTransform parent)
+        private static (GameObject, UIButtonTouch[]) BuildEndCard(RectTransform parent)
         {
             RectTransform rect = Util.NewRect("EndCard", parent);
             Util.Stretch(rect);
@@ -927,8 +950,7 @@ namespace _Playable.Editor
             var logoImage = logoRect.gameObject.AddComponent<Image>();
             logoImage.sprite = Util.LoadSprite("Ui", "rap_icon_2");
             logoImage.preserveAspect = true;
-            Button logoButton = logoRect.gameObject.AddComponent<Button>();
-            logoButton.targetGraphic = logoImage;
+            UIButtonTouch logoButton = logoRect.gameObject.AddComponent<UIButtonTouch>();
 
             Text title = Util.NewText("Title", rect, "Live the rags-to-riches dream", 52f, s_font,
                 TextLight);
@@ -942,8 +964,7 @@ namespace _Playable.Editor
             var downloadImage = downloadRect.gameObject.AddComponent<Image>();
             downloadImage.sprite = Util.LoadSprite("Ui", "button_green");
             downloadImage.type = Image.Type.Sliced;
-            Button downloadButton = downloadRect.gameObject.AddComponent<Button>();
-            downloadButton.targetGraphic = downloadImage;
+            UIButtonTouch downloadButton = downloadRect.gameObject.AddComponent<UIButtonTouch>();
 
             Text downloadLabel = Util.NewText("Label", downloadRect, "PLAY NOW", 56f, s_font,
                 TextLight);
@@ -969,38 +990,68 @@ namespace _Playable.Editor
 
         private static void ConfigureAudio(PlayableAudio audio)
         {
-            (PlayableSfx Sfx, AudioClip Clip)[] entries =
+            PlayableAudioConfig audioConfig = EnsureAudioConfig();
+            Util.SetRef(audio, "_config", audioConfig);
+            Util.Apply(audio);
+        }
+
+        /// <summary>
+        /// Tao/nap asset PlayableAudioConfig va gan clip vao day. Clip chi ghi de khi asset moi tao
+        /// (arraySize == 0) de khong de len chinh sua tay tren Inspector khi chay lai builder.
+        /// </summary>
+        private static PlayableAudioConfig EnsureAudioConfig()
+        {
+            var audioConfig = AssetDatabase.LoadAssetAtPath<PlayableAudioConfig>(AudioConfigPath);
+            bool created = false;
+            if (audioConfig == null)
             {
-                (Click, Util.LoadAudio("Sfx", "sfx_button_2.ogg")),
-                (Money, Util.LoadAudio("Sfx", "sfx_cash_2.ogg")),
-                (Shiny, Util.LoadAudio("Sfx", "sfx_ting.mp3")),
-                (Whoosh, Util.LoadAudio("Sfx", "sfx_beat_switch_2.mp3")),
-                (PutDown, Util.LoadAudio("Sfx", "sfx_close_modal_2.ogg")),
-
-                // TODO(asset): bon clip thoai nhan vat chua co. Tam dung sfx_talk cho co tieng;
-                // khi co file that thi doi Clip o day (hoac keo thang vao Inspector).
-                (ManCrying, Util.LoadAudio("Sfx", "sfx_talk.mp3")),
-                (ManHappy, Util.LoadAudio("Sfx", "sfx_talk.mp3")),
-                (WomanAngry, Util.LoadAudio("Sfx", "sfx_talk.mp3")),
-                (WomanSatisfied, Util.LoadAudio("Sfx", "sfx_talk.mp3")),
-
-                (BeatLoop, Util.LoadAudio("Music", "beat_101.ogg")),
-                (Vocal, Util.LoadAudio("Music", "vocal_101.ogg"))
-            };
-
-            var serialized = new SerializedObject(audio);
-            SerializedProperty array = serialized.FindProperty("_entries");
-            array.arraySize = entries.Length;
-
-            for (int i = 0; i < entries.Length; i++)
-            {
-                SerializedProperty element = array.GetArrayElementAtIndex(i);
-                element.FindPropertyRelative("Sfx").enumValueIndex = (int)entries[i].Sfx;
-                element.FindPropertyRelative("Clip").objectReferenceValue = entries[i].Clip;
-                element.FindPropertyRelative("Volume").floatValue = 1f;
+                audioConfig = ScriptableObject.CreateInstance<PlayableAudioConfig>();
+                AssetDatabase.CreateAsset(audioConfig, AudioConfigPath);
+                created = true;
             }
 
-            serialized.ApplyModifiedPropertiesWithoutUndo();
+            var serialized = new SerializedObject(audioConfig);
+            SerializedProperty array = serialized.FindProperty("_entries");
+
+            // Chi nap clip mac dinh khi asset chua co du lieu, tranh de len chinh sua tay.
+            if (created || array.arraySize == 0)
+            {
+                (PlayableSfx Sfx, AudioClip Clip)[] entries =
+                {
+                    (Click, Util.LoadAudio("Sfx", "sfx_button_2.ogg")),
+                    (Money, Util.LoadAudio("Sfx", "sfx_cash_2.ogg")),
+                    (Shiny, Util.LoadAudio("Sfx", "sfx_ting.mp3")),
+                    (Whoosh, Util.LoadAudio("Sfx", "sfx_beat_switch_2.mp3")),
+                    (PutDown, Util.LoadAudio("Sfx", "sfx_close_modal_2.ogg")),
+
+                    // TODO(asset): bon clip thoai nhan vat chua co. Tam dung sfx_talk cho co tieng;
+                    // khi co file that thi doi Clip trong asset PlayableAudioConfig (hoac keo vao Inspector).
+                    (ManCrying, Util.LoadAudio("Sfx", "sfx_talk.mp3")),
+                    (ManHappy, Util.LoadAudio("Sfx", "sfx_talk.mp3")),
+                    (WomanAngry, Util.LoadAudio("Sfx", "sfx_talk.mp3")),
+                    (WomanSatisfied, Util.LoadAudio("Sfx", "sfx_talk.mp3"))
+                };
+
+                array.arraySize = entries.Length;
+                for (int i = 0; i < entries.Length; i++)
+                {
+                    SerializedProperty element = array.GetArrayElementAtIndex(i);
+                    element.FindPropertyRelative("Sfx").enumValueIndex = (int)entries[i].Sfx;
+                    element.FindPropertyRelative("Clip").objectReferenceValue = entries[i].Clip;
+                    element.FindPropertyRelative("Volume").floatValue = 1f;
+                }
+
+                // Beat va vocal la field rieng (track lap doc lap).
+                serialized.FindProperty("_beatClip").objectReferenceValue = Util.LoadAudio("Music", "beat_101.ogg");
+                serialized.FindProperty("_beatVolume").floatValue = 1f;
+                serialized.FindProperty("_vocalClip").objectReferenceValue = Util.LoadAudio("Music", "vocal_101.ogg");
+                serialized.FindProperty("_vocalVolume").floatValue = 1f;
+
+                serialized.ApplyModifiedPropertiesWithoutUndo();
+                EditorUtility.SetDirty(audioConfig);
+            }
+
+            return audioConfig;
         }
     }
 }

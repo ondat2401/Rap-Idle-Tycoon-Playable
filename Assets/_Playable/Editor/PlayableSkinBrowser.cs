@@ -472,7 +472,7 @@ namespace _Playable.Editor
             var so = new SerializedObject(_config);
             var dto = new SkinConfigDto
             {
-                start = ReadSkinSet(so.FindProperty("_startSkin")),
+                start = ReadSkinSet(so.FindProperty("_startSkinA")),
                 clothes = ReadSkinSetArray(so.FindProperty("_clothesSkins"))
             };
 
@@ -504,7 +504,7 @@ namespace _Playable.Editor
             }
 
             var so = new SerializedObject(_config);
-            WriteSkinSet(so.FindProperty("_startSkin"), dto.start);
+            WriteSkinSet(so.FindProperty("_startSkinA"), dto.start);
 
             SerializedProperty clothes = so.FindProperty("_clothesSkins");
             int count = dto.clothes != null ? dto.clothes.Length : 0;
