@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69d3e82257e5ac14485a0c78ef3d8686, type: 3}
+  m_Name: PlayableConfig
+  m_EditorClassIdentifier: _Playable.Runtime::_Playable.Runtime.Config.PlayableConfig
+  _startMoney: 5500
+  _moneyGoal: 999999
+  _tapReward: 62500
+  _priceGirlA: 5000
+  _priceGirlB: 150
+  _priceCar: 235322
+  _priceHouse: 546654
+  _priceClothes: 123456
+  _timing:
+    GirlEnterDuration: 1
+    GirlEnterOffsetX: 11.25
+    DialogButtonDelay: 0.5
+    AngerBubbleDelay: 0.5
+    AngerStartDelay: 1
+    CryStartDelay: 0.15
+    CryDuration: 3.3
+    AngerExitDuration: 0.4
+    AngerExitOffsetX: 2.25
+    ChoiceArmDelay: 1
+    PropSlideDuration: 0.45
+    ShinyDelay: 0.2
+    CelebrateDelay: 0.3
+    PraiseDelay: 0.2
+    ComeBackDelay: 0.1
+    MoneyTweenDuration: 0.5
+    LoopHalfDuration: 0.5
+  _guideIdleTimeout: 3
+  _guideSwitchInterval: 2
+  _guidePulse: 0.05
+  _guidePulseSmall: 0.02
+  _emojiRiseDistance: 300
+  _emojiSpreadX: 250
+  _emojiDuration: 0.5
+  _startSkin:
+    Mic: mic_1
+    Outfit: outfit_3
+    Head: head_1
+    Jewel: jewel_3
+  _clothesSkins:
+  - Mic: mic_4
+    Outfit: outfit_9
+    Head: head_7
+    Jewel: jewel_9
+  - Mic: mic_5
+    Outfit: outfit_9
+    Head: head_7
+    Jewel: jewel_9
+  - Mic: mic_6
+    Outfit: outfit_9
+    Head: head_7
+    Jewel: jewel_9

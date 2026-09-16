@@ -1,0 +1,18 @@
+{
+  "name": "Amanotes.LunaFieldGenerator.Runtime",
+  "rootNamespace": "Amanotes.LunaFieldGenerator",
+  "references": [
+    "Amanotes.Core.Runtime",
+    "Amanotes.OrientationTracker.Runtime",
+    "UnityEngine.UI"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

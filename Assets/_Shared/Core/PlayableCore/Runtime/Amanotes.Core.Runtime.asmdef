@@ -1,0 +1,17 @@
+{
+  "name": "Amanotes.Core.Runtime",
+  "rootNamespace": "Amanotes.Core",
+  "references": [
+    "DOTween.Modules",
+    "UnityEngine.UI"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

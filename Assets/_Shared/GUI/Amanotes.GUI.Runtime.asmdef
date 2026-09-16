@@ -1,0 +1,20 @@
+{
+  "name": "Amanotes.GUI.Runtime",
+  "rootNamespace": "",
+  "references": [
+    "Amanotes.Core.Runtime",
+    "Amanotes.OrientationTracker.Runtime",
+    "Amanotes.LunaFieldGenerator.Runtime",
+    "UnityEngine.UI",
+    "DOTween.Modules"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

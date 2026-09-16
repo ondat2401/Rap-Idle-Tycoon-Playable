@@ -1,0 +1,21 @@
+{
+  "name": "com.amanotes.playable-luna-field-generator",
+  "version": "1.0.2",
+  "displayName": "Playable Luna Field Generator",
+  "description": "Luna Playable field generator with orientation-aware layout support",
+  "unity": "2021.3",
+  "author": {
+    "name": "Amanotes"
+  },
+  "dependencies": {
+    "com.amanotes.playable-core": "1.0.0",
+    "com.amanotes.playable-orientation-tracker": "1.0.0"
+  },
+  "keywords": [
+    "luna",
+    "playable",
+    "field",
+    "generator",
+    "orientation"
+  ]
+}

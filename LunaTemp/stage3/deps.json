@@ -1,0 +1,280 @@
+{
+  "ignores": [
+    "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Utils/MegaExtension.cs",
+    "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs",
+    "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs",
+    "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs",
+    "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs",
+    "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs",
+    "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs",
+    "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/AnimationState.cs",
+    "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/ISkeletonAnimation.cs",
+    "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/AtlasUtilities.cs",
+    "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/AttachmentCloneExtensions.cs",
+    "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/AttachmentRegionExtensions.cs",
+    "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/SkeletonExtensions.cs",
+    "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/TimelineExtensions.cs"
+  ],
+  "groups": [
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/Config/PlayableAnimationNames.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/View/PlayableManView.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/Flow/PlayableFlow.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/Config/PlayableConfig.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/View/PlayableGuideHand.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/Config/PlayableTiming.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/View/PlayableMainMap.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/View/PlayableStageView.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/View/PlayableTapTargetView.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/Core/PlayableTween.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/View/PlayableBubbleView.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/View/PlayableChoiceGroup.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/View/PlayableChoiceButton.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/View/PlayableEmojiSpawner.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/Core/PlayableEase.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/View/PlayableHudView.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/View/PlayableWomanView.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/View/PlayableSpineView.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderer.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Following/BoneFollower.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Following/BoneFollowerGraphic.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonGraphic.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Following/BoundingBoxFollowerGraphic.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/SpineAttributes.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/AnimationReferenceAsset.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/ISkeletonAnimation.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Following/PointFollower.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/PointAttachment.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/AtlasAttachmentLoader.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/SkeletonLoader.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/SkeletonBinary.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/SkeletonDataAsset.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/BlendModeMaterials.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/BlendMode.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/SkeletonJson.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/AttachmentLoader.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/RegionlessAttachmentLoader.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Atlas.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/MeshAttachment.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Skeleton.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Animation.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/AnimationState.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Triangulator.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/SkeletonClipping.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Mesh Generation/MeshGenerator.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderSeparator/SkeletonPartsRenderer.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderSeparator/SkeletonRenderSeparator.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Mesh Generation/SkeletonRendererInstruction.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Mesh Generation/MeshRendererBuffers.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Mesh Generation/DoubleBuffered.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/ExposedList.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/VertexAttachment.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/BoundingBoxAttachment.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/SkeletonBounds.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Slot.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/RegionAttachment.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/AttachmentCloneExtensions.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/Attachment.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/ClippingAttachment.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/SlotData.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/PathConstraint.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/IUpdatable.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Bone.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/IkConstraint.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtility.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Following/BoundingBoxFollower.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Skin.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/SkeletonData.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/AnimationStateData.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonAnimation.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineEvent.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/EventData.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Event.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/EventDataReferenceAsset.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/PhysicsConstraint.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/PhysicsConstraintData.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/ConstraintData.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/IkConstraintData.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/BoneData.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/PathConstraintData.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/TransformConstraint.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonRootMotionBase.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonMecanimRootMotion.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonMecanim.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonRootMotion.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/TimelineExtensions.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/TransformConstraintData.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/MathUtils.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/SkeletonExtensions.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/IHasTextureRegion.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/Sequence.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/AtlasUtilities.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/AttachmentRegionExtensions.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/TextureRegion.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/BlendModeMaterialsAsset.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/SkeletonDataModifierAsset.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtilityBone.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtilityConstraint.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/PathAttachment.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonRendererCustomMaterials/SkeletonRendererCustomMaterials.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Mesh Generation/SpineMesh.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimation.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimationComplete.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimationEnd.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineTrackEntryEnd.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/ActivateBasedOnFlipDirection.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/AtlasAssetBase.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/OnDemandTextureLoader.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/SpineAtlasAsset.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/SpineSpriteAtlasAsset.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Json.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/AttachmentType.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/SkeletonDataCompatibility.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonRendererCustomMaterials/SkeletonGraphicCustomMaterials.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Internal/SkeletonSubmeshGraphic.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/View/PlayableFadeOverlay.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/View/PlayableFloatingText.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/View/PlayablePraiseView.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/View/PlayableMapSlot.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/Config/PlayableSkinSet.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/Core/PlayableAudio.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/Core/PlayableSfx.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/Flow/PlayableExit.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/Core/PlayableEventBus.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/Core/PlayableSignal.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Runtime/Flow/PlayableWallet.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Playable/Scripts/CTA.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Managers/Audio/AudioManager.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/GUI/Outro/OutroScreen.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/GUI/Outro/OutroRawImg/OutroScreen_RawImage.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Utils/EventBus.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Utils/CameraShake.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/GUI/Outro/OutroScreenPickSongCard/Scripts/OutroScreen_PickSongCard.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/GUI/Outro/OutroScreenPickSongCard/Scripts/OutroCard.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Modules/OrientationTracker/Runtime/Core/OrientationTracker.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/LunaFieldGenerator/Runtime/Cores/LunaFieldController.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/LunaFieldGenerator/Runtime/Cores/FieldBase.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/LunaFieldGenerator/Runtime/Samples/Gameplay_ProgressBar_LunaField.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/LunaFieldGenerator/Runtime/Samples/Gameplay_Score_LunaField.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/LunaFieldGenerator/Runtime/Samples/Intro_Hand_LunaField.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/LunaFieldGenerator/Runtime/Samples/Outro_CardGroup_LunaField.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/LunaFieldGenerator/Runtime/Samples/Outro_Logo_LunaField.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/LunaFieldGenerator/Runtime/Samples/Outro_Tagline_LunaField.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/LunaFieldGenerator/Runtime/Samples/Revive_Tagline_LunaField.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Utils/SDebug.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Managers/Core/CoreGameFlow.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Managers/Core/GameBoostrap.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Managers/Core/CoreManager.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Utils/SingletonMonoBehaviour.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Managers/Config/GameConfigManager.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Managers/Config/GameConfigBase.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Managers/PoolingObject/ObjectPoolManager.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Managers/PoolingObject/PoolName.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Managers/UIRoot/Core/Managers/UIManager.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Managers/UIRoot/Screens/MainMenuScreen.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Managers/UIRoot/Core/Base/AnimatedUIScreen.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/GUI/GameplayScreen/GameplayScreen/Scripts/GameplayScreen.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/GUI/Intro/IntroScreen/Scripts/IntroScreen.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/GUI/PreIntro/PreIntroScreen/Scripts/PreIntroScreen.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/GUI/Revive/ReviveScreen/Scripts/ReviveScreen.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Managers/UIRoot/Core/ScreenState.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Managers/UIRoot/Core/Base/UIScreenBase.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Managers/UIRoot/Core/Interfaces/IUIScreen.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/GUI/Revive/ReviveScreen/Scripts/ReviveScreenBG.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Managers/UIRoot/Config/UIConfig.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Managers/Core/ICore.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Modules/OrientationTracker/Runtime/Utils/OrientationTrackerInitializer.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Utils/AnimationActiveTrigger.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Utils/ButtonScale.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Utils/DontDestroyMono.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Utils/ImageHelper.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Utils/MegaExtension.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/Core/PlayableCore/Runtime/Utils/TimerHandler.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/GUI/_Common/Scripts/ITouchReceiver.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/GUI/_Common/Scripts/TouchDispatcher.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/GUI/_Common/Scripts/UIButtonTouch.cs",
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/_Shared/GUI/_Common/Scripts/UIImageTouch.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUIToolkit.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/EditorSkeletonPlayer.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowLocationRigidbody.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowLocationRigidbody2D.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowSkeletonUtilityRootRotation.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Modules/TK2D/SpriteCollectionAttachmentLoader.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/BuildUtilities.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/MaterialChecks.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/MathUtilities.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Rap Idle Tycoon/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/SettingsTriState.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Downloads/7.2.0/pipeline/templates/LunaCompiler/Scripts/Properties/AssemblyInfo.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Downloads/7.2.0/pipeline/templates/LunaCompiler/Scripts/Sources/OtherDummyScript.cs"
+    ],
+    [
+      "C:/Users/ADMIN/Downloads/7.2.0/pipeline/templates/LunaCompiler/Scripts/obj/Debug/.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+    ]
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "com.amanotes.playable-orientation-tracker",
+  "version": "1.0.2",
+  "displayName": "Playable Orientation Tracker",
+  "description": "Device detection (Phone/Tablet) and orientation tracking (Portrait/Landscape) with dynamic runtime detection",
+  "unity": "2021.3",
+  "author": {
+    "name": "Amanotes"
+  },
+  "dependencies": {
+    "com.amanotes.playable-core": "1.0.0"
+  },
+  "keywords": [
+    "orientation",
+    "device",
+    "tablet",
+    "phone",
+    "responsive"
+  ]
+}

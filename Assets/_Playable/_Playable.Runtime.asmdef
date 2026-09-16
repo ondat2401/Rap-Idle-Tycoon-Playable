@@ -1,0 +1,19 @@
+{
+    "name": "_Playable.Runtime",
+    "rootNamespace": "_Playable.Runtime",
+    "references": [
+        "spine-unity",
+        "spine-csharp",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

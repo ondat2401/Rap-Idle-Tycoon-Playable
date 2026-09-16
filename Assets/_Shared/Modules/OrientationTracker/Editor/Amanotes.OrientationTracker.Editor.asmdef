@@ -1,0 +1,19 @@
+{
+  "name": "Amanotes.OrientationTracker.Editor",
+  "rootNamespace": "",
+  "references": [
+    "Amanotes.OrientationTracker.Runtime",
+    "Amanotes.Core.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

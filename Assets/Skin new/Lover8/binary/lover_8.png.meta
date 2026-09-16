@@ -1,0 +1,1412 @@
+fileFormatVersion: 2
+guid: f458a54b201eb8a4cb775823b6937340
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3989371007468196230
+    second: lover_8_0
+  - first:
+      213: 8694785659010104320
+    second: lover_8_1
+  - first:
+      213: 7127427269724262973
+    second: lover_8_2
+  - first:
+      213: 3772364195445960326
+    second: lover_8_3
+  - first:
+      213: -6550836364530865229
+    second: lover_8_4
+  - first:
+      213: -2998107677629966649
+    second: lover_8_5
+  - first:
+      213: 3411837204331759477
+    second: lover_8_6
+  - first:
+      213: 3623108409533711453
+    second: lover_8_7
+  - first:
+      213: -6265921102044911793
+    second: lover_8_8
+  - first:
+      213: 4900825343743866582
+    second: lover_8_9
+  - first:
+      213: -1555866734705585828
+    second: lover_8_10
+  - first:
+      213: 6445563575655274147
+    second: lover_8_11
+  - first:
+      213: 1894252027899355430
+    second: lover_8_12
+  - first:
+      213: 6632618937281199734
+    second: lover_8_13
+  - first:
+      213: 2581618133949279341
+    second: lover_8_14
+  - first:
+      213: -8080427648632627875
+    second: lover_8_15
+  - first:
+      213: 655111289123461969
+    second: lover_8_16
+  - first:
+      213: -4995233432486049062
+    second: lover_8_17
+  - first:
+      213: -8501583621364666405
+    second: lover_8_18
+  - first:
+      213: 381015382717395559
+    second: lover_8_19
+  - first:
+      213: -3345737006894346151
+    second: lover_8_20
+  - first:
+      213: -191662802875453776
+    second: lover_8_21
+  - first:
+      213: -291531812078163321
+    second: lover_8_22
+  - first:
+      213: -3374089790781025510
+    second: lover_8_23
+  - first:
+      213: -4970171142456236218
+    second: lover_8_24
+  - first:
+      213: -2481638077678968155
+    second: lover_8_25
+  - first:
+      213: -9014210397224019482
+    second: lover_8_26
+  - first:
+      213: 7182092629012351581
+    second: lover_8_27
+  - first:
+      213: 3482103524669453751
+    second: lover_8_28
+  - first:
+      213: 6296270575770339744
+    second: lover_8_29
+  - first:
+      213: 3866415960516272648
+    second: lover_8_30
+  - first:
+      213: 5992990204337977271
+    second: lover_8_31
+  - first:
+      213: -2640760591442125212
+    second: lover_8_32
+  - first:
+      213: 1824448445812572041
+    second: lover_8_33
+  - first:
+      213: -5011395297255457268
+    second: lover_8_34
+  - first:
+      213: 3457828031658218000
+    second: lover_8_35
+  - first:
+      213: 5006914016146850200
+    second: lover_8_36
+  - first:
+      213: -1560528228400843734
+    second: lover_8_37
+  - first:
+      213: 3968903523632297769
+    second: lover_8_38
+  - first:
+      213: -3291364501738171790
+    second: lover_8_39
+  - first:
+      213: 7812157828121782963
+    second: lover_8_40
+  - first:
+      213: 3459612813801029750
+    second: lover_8_41
+  - first:
+      213: -5907516568952003335
+    second: lover_8_42
+  - first:
+      213: -1776521552012844397
+    second: lover_8_43
+  - first:
+      213: -8984403343692187717
+    second: lover_8_44
+  - first:
+      213: 8933316827508673264
+    second: lover_8_45
+  - first:
+      213: -831119229515172592
+    second: lover_8_46
+  - first:
+      213: 4256843860700059068
+    second: lover_8_47
+  - first:
+      213: -4471986257036047655
+    second: lover_8_48
+  - first:
+      213: -2057377612326589867
+    second: lover_8_49
+  - first:
+      213: -98315321235798205
+    second: lover_8_50
+  - first:
+      213: 2761052113480088073
+    second: lover_8_51
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lover_8_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1001
+        width: 61
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68152617bc71d5730800000000000000
+      internalID: 3989371007468196230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1000
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c357b6d751aa870800000000000000
+      internalID: 8694785659010104320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1000
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32d85ec655b9e260800000000000000
+      internalID: 7127427269724262973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1000
+        width: 53
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e65f8bf312a5430800000000000000
+      internalID: 3772364195445960326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1000
+        width: 45
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb2d66c801c615a0800000000000000
+      internalID: -6550836364530865229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 996
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c69e7ca3f49466d0800000000000000
+      internalID: -2998107677629966649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_6
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 996
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57708a35cd7495f20800000000000000
+      internalID: 3411837204331759477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_7
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 970
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54ccf407edd74230800000000000000
+      internalID: 3623108409533711453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_8
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 901
+        width: 61
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f472df9b4f9fa09a0800000000000000
+      internalID: -6265921102044911793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 543
+        width: 257
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6b5183faa330440800000000000000
+      internalID: 4900825343743866582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_10
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 978
+        width: 61
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51d608b273786ae0800000000000000
+      internalID: -1555866734705585828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_11
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 970
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a611280ced337950800000000000000
+      internalID: 6445563575655274147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_12
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 969
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6212106ee2cb94a10800000000000000
+      internalID: 1894252027899355430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_13
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 969
+        width: 61
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ebc2748cbcb0c50800000000000000
+      internalID: 6632618937281199734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_14
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 969
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ce0cbc300c3d320800000000000000
+      internalID: 2581618133949279341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_15
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 888
+        width: 67
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5dd1029ddd8cdf80800000000000000
+      internalID: -8080427648632627875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_16
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 896
+        width: 103
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b5d8c1f3c671900800000000000000
+      internalID: 655111289123461969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_17
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 901
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada8386b8ad5daab0800000000000000
+      internalID: -4995233432486049062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_18
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 542
+        width: 151
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdfa74c5dbe440a80800000000000000
+      internalID: -8501583621364666405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_19
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 893
+        width: 169
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76274dcc873a94500800000000000000
+      internalID: 381015382717395559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_20
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 675
+        width: 86
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9501f203bed8191d0800000000000000
+      internalID: -3345737006894346151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_21
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 921
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bee3fd32b3175df0800000000000000
+      internalID: -191662802875453776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_22
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 649
+        width: 177
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78aea5c8c5544fbf0800000000000000
+      internalID: -291531812078163321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_23
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 675
+        width: 70
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1399344633dc21d0800000000000000
+      internalID: -3374089790781025510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_24
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 819
+        width: 118
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647aff4dda7660bb0800000000000000
+      internalID: -4970171142456236218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_25
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 819
+        width: 93
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2acde01537f8dd0800000000000000
+      internalID: -2481638077678968155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_26
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 859
+        width: 67
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e954de276717e280800000000000000
+      internalID: -9014210397224019482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_27
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 737
+        width: 198
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a8b38913beba360800000000000000
+      internalID: 7182092629012351581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_28
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 742
+        width: 59
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5fe0be4bae25030800000000000000
+      internalID: 3482103524669453751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_29
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 3
+        width: 146
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a90986cab8d06750800000000000000
+      internalID: 6296270575770339744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_30
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 658
+        width: 203
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8022978b4d448a530800000000000000
+      internalID: 3866415960516272648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_31
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 582
+        width: 216
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7f5ffa6d06b2350800000000000000
+      internalID: 5992990204337977271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_32
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 658
+        width: 64
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46edd32cb322a5bd0800000000000000
+      internalID: -2640760591442125212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_33
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 610
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ffba3f13eb15910800000000000000
+      internalID: 1824448445812572041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_34
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 542
+        width: 19
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e76065782f37ab0800000000000000
+      internalID: -5011395297255457268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_35
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 6
+        width: 173
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0125061464cacff20800000000000000
+      internalID: 3457828031658218000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_36
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 329
+        width: 209
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8918b5915c12c7540800000000000000
+      internalID: 5006914016146850200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_37
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 510
+        width: 43
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24b23428d3e75ae0800000000000000
+      internalID: -1560528228400843734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_38
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 579
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92736e10ab0641730800000000000000
+      internalID: 3968903523632297769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_39
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 430
+        height: 541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272d09f8c69b252d0800000000000000
+      internalID: -3291364501738171790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_40
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 504
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba6c72772c5a6c60800000000000000
+      internalID: 7812157828121782963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_41
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 500
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670000b3683030030800000000000000
+      internalID: 3459612813801029750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_42
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 493
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4a1eadaf8440ea0800000000000000
+      internalID: -5907516568952003335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_43
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 444
+        width: 20
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392e2749f078857e0800000000000000
+      internalID: -1776521552012844397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_44
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 459
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb73564a2ccf05380800000000000000
+      internalID: -8984403343692187717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_45
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 405
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa8ca9e25489fb70800000000000000
+      internalID: 8933316827508673264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_46
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 398
+        width: 18
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01570c6d6754774f0800000000000000
+      internalID: -831119229515172592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_47
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 329
+        width: 20
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5545500f8531b30800000000000000
+      internalID: 4256843860700059068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_48
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 329
+        width: 34
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da00fc513050f1c0800000000000000
+      internalID: -4471986257036047655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_49
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 2
+        width: 36
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55aae6846f9b273e0800000000000000
+      internalID: -2057377612326589867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_50
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1
+        width: 35
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34703c97cb6b2aef0800000000000000
+      internalID: -98315321235798205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_51
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 2
+        width: 254
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a725eb44a315620800000000000000
+      internalID: 2761052113480088073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      lover_8_0: 3989371007468196230
+      lover_8_1: 8694785659010104320
+      lover_8_10: -1555866734705585828
+      lover_8_11: 6445563575655274147
+      lover_8_12: 1894252027899355430
+      lover_8_13: 6632618937281199734
+      lover_8_14: 2581618133949279341
+      lover_8_15: -8080427648632627875
+      lover_8_16: 655111289123461969
+      lover_8_17: -4995233432486049062
+      lover_8_18: -8501583621364666405
+      lover_8_19: 381015382717395559
+      lover_8_2: 7127427269724262973
+      lover_8_20: -3345737006894346151
+      lover_8_21: -191662802875453776
+      lover_8_22: -291531812078163321
+      lover_8_23: -3374089790781025510
+      lover_8_24: -4970171142456236218
+      lover_8_25: -2481638077678968155
+      lover_8_26: -9014210397224019482
+      lover_8_27: 7182092629012351581
+      lover_8_28: 3482103524669453751
+      lover_8_29: 6296270575770339744
+      lover_8_3: 3772364195445960326
+      lover_8_30: 3866415960516272648
+      lover_8_31: 5992990204337977271
+      lover_8_32: -2640760591442125212
+      lover_8_33: 1824448445812572041
+      lover_8_34: -5011395297255457268
+      lover_8_35: 3457828031658218000
+      lover_8_36: 5006914016146850200
+      lover_8_37: -1560528228400843734
+      lover_8_38: 3968903523632297769
+      lover_8_39: -3291364501738171790
+      lover_8_4: -6550836364530865229
+      lover_8_40: 7812157828121782963
+      lover_8_41: 3459612813801029750
+      lover_8_42: -5907516568952003335
+      lover_8_43: -1776521552012844397
+      lover_8_44: -8984403343692187717
+      lover_8_45: 8933316827508673264
+      lover_8_46: -831119229515172592
+      lover_8_47: 4256843860700059068
+      lover_8_48: -4471986257036047655
+      lover_8_49: -2057377612326589867
+      lover_8_5: -2998107677629966649
+      lover_8_50: -98315321235798205
+      lover_8_51: 2761052113480088073
+      lover_8_6: 3411837204331759477
+      lover_8_7: 3623108409533711453
+      lover_8_8: -6265921102044911793
+      lover_8_9: 4900825343743866582
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
