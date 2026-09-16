@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using TMPro;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
@@ -120,19 +119,20 @@ namespace _Playable.Editor
             }
         }
 
-        public static TextMeshProUGUI NewText(string name, Transform parent, string content, float fontSize,
-            TMP_FontAsset font, Color color)
+        public static Text NewText(string name, Transform parent, string content, float fontSize,
+            Font font, Color color)
         {
             RectTransform rect = NewRect(name, parent);
             rect.sizeDelta = new Vector2(600f, 90f);
 
-            var text = rect.gameObject.AddComponent<TextMeshProUGUI>();
+            var text = rect.gameObject.AddComponent<Text>();
             text.text = content;
-            text.fontSize = fontSize;
-            text.alignment = TextAlignmentOptions.Center;
+            text.fontSize = Mathf.RoundToInt(fontSize);
+            text.alignment = TextAnchor.MiddleCenter;
             text.color = color;
             text.raycastTarget = false;
-            text.enableWordWrapping = false;
+            text.horizontalOverflow = HorizontalWrapMode.Overflow;
+            text.verticalOverflow = VerticalWrapMode.Overflow;
 
             if (font != null)
             {

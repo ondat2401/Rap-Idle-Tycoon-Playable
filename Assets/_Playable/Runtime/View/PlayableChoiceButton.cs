@@ -1,6 +1,5 @@
 using System;
 using System.Globalization;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,8 +15,8 @@ namespace _Playable.Runtime.View
         [SerializeField] private Button _button;
         [SerializeField] private Image _icon;
         [SerializeField] private GameObject _priceRoot;
-        [SerializeField] private TMP_Text _priceLabel;
-        [SerializeField] private TMP_Text _titleLabel;
+        [SerializeField] private Text _priceLabel;
+        [SerializeField] private Text _titleLabel;
 
         private RectTransform _rect;
 
@@ -69,7 +68,7 @@ namespace _Playable.Runtime.View
         {
             if (this._titleLabel != null)
             {
-                this._titleLabel.SetText(title);
+                this._titleLabel.text = title;
             }
         }
 

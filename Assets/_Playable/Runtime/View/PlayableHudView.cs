@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Globalization;
 using _Playable.Runtime.Core;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,7 +15,7 @@ namespace _Playable.Runtime.View
     public sealed class PlayableHudView : MonoBehaviour
     {
         [SerializeField] private CanvasGroup _group;
-        [SerializeField] private TMP_Text _value;
+        [SerializeField] private Text _value;
         [SerializeField] private Image _fill;
 
         [Header("Mau bao thieu tien")]

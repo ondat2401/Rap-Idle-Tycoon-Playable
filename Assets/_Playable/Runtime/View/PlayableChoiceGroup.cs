@@ -74,6 +74,24 @@ namespace _Playable.Runtime.View
             }
         }
 
+        /// <summary>Gan tieu de cho tung nut theo thu tu. Phan tu thieu/null thi giu nguyen.</summary>
+        public void SetTitles(string[] titles)
+        {
+            if (titles == null)
+            {
+                return;
+            }
+
+            int n = Mathf.Min(titles.Length, this._buttons.Length);
+            for (int i = 0; i < n; i++)
+            {
+                if (titles[i] != null)
+                {
+                    this._buttons[i]?.SetTitle(titles[i]);
+                }
+            }
+        }
+
         public IEnumerator Show(float stagger = -1f)
         {
             if (stagger < 0f)

@@ -158,6 +158,9 @@ TextureImporter:
   - first:
       213: 2761052113480088073
     second: lover_8_51
+  - first:
+      213: -7749860737054673059
+    second: lover_8_52
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -255,7 +258,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 1001
+        y: 1021
         width: 61
         height: 18
       alignment: 0
@@ -275,10 +278,10 @@ TextureImporter:
       name: lover_8_1
       rect:
         serializedVersion: 2
-        x: 85
-        y: 1000
-        width: 34
-        height: 15
+        x: 1
+        y: 1001
+        width: 64
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,10 +299,10 @@ TextureImporter:
       name: lover_8_2
       rect:
         serializedVersion: 2
-        x: 119
-        y: 1000
+        x: 62
+        y: 1021
         width: 41
-        height: 23
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,10 +320,10 @@ TextureImporter:
       name: lover_8_3
       rect:
         serializedVersion: 2
-        x: 160
+        x: 116
         y: 1000
-        width: 53
-        height: 22
+        width: 61
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,10 +341,10 @@ TextureImporter:
       name: lover_8_4
       rect:
         serializedVersion: 2
-        x: 213
+        x: 177
         y: 1000
-        width: 45
-        height: 22
+        width: 51
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,10 +362,10 @@ TextureImporter:
       name: lover_8_5
       rect:
         serializedVersion: 2
-        x: 260
-        y: 996
-        width: 27
-        height: 27
+        x: 228
+        y: 1000
+        width: 30
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,10 +383,10 @@ TextureImporter:
       name: lover_8_6
       rect:
         serializedVersion: 2
-        x: 287
-        y: 996
-        width: 36
-        height: 24
+        x: 260
+        y: 972
+        width: 118
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -401,10 +404,10 @@ TextureImporter:
       name: lover_8_7
       rect:
         serializedVersion: 2
-        x: 380
+        x: 378
         y: 970
-        width: 30
-        height: 33
+        width: 34
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,10 +425,10 @@ TextureImporter:
       name: lover_8_8
       rect:
         serializedVersion: 2
-        x: 942
-        y: 901
-        width: 61
-        height: 118
+        x: 412
+        y: 935
+        width: 98
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -443,10 +446,10 @@ TextureImporter:
       name: lover_8_9
       rect:
         serializedVersion: 2
-        x: 2
-        y: 543
-        width: 257
-        height: 456
+        x: 510
+        y: 928
+        width: 98
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -464,10 +467,10 @@ TextureImporter:
       name: lover_8_10
       rect:
         serializedVersion: 2
-        x: 260
-        y: 978
-        width: 61
-        height: 18
+        x: 819
+        y: 991
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -485,10 +488,10 @@ TextureImporter:
       name: lover_8_11
       rect:
         serializedVersion: 2
-        x: 343
-        y: 970
-        width: 37
-        height: 22
+        x: 851
+        y: 991
+        width: 22
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -506,10 +509,10 @@ TextureImporter:
       name: lover_8_12
       rect:
         serializedVersion: 2
-        x: 411
-        y: 969
-        width: 63
-        height: 31
+        x: 77
+        y: 1000
+        width: 39
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -527,10 +530,10 @@ TextureImporter:
       name: lover_8_13
       rect:
         serializedVersion: 2
-        x: 474
-        y: 969
-        width: 61
-        height: 31
+        x: 608
+        y: 928
+        width: 93
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -548,10 +551,10 @@ TextureImporter:
       name: lover_8_14
       rect:
         serializedVersion: 2
-        x: 535
-        y: 969
-        width: 38
-        height: 26
+        x: 701
+        y: 928
+        width: 118
+        height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,10 +572,10 @@ TextureImporter:
       name: lover_8_15
       rect:
         serializedVersion: 2
-        x: 674
-        y: 888
-        width: 67
-        height: 90
+        x: 2
+        y: 543
+        width: 257
+        height: 456
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,10 +593,10 @@ TextureImporter:
       name: lover_8_16
       rect:
         serializedVersion: 2
-        x: 741
-        y: 896
-        width: 103
-        height: 98
+        x: 260
+        y: 542
+        width: 151
+        height: 428
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -611,10 +614,10 @@ TextureImporter:
       name: lover_8_17
       rect:
         serializedVersion: 2
-        x: 844
-        y: 901
-        width: 98
-        height: 97
+        x: 341
+        y: 970
+        width: 17
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -632,10 +635,10 @@ TextureImporter:
       name: lover_8_18
       rect:
         serializedVersion: 2
-        x: 260
-        y: 542
-        width: 151
-        height: 428
+        x: 819
+        y: 901
+        width: 67
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -654,9 +657,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 411
-        y: 893
-        width: 169
-        height: 76
+        y: 649
+        width: 86
+        height: 286
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -674,10 +677,10 @@ TextureImporter:
       name: lover_8_20
       rect:
         serializedVersion: 2
-        x: 588
+        x: 497
         y: 675
-        width: 86
-        height: 286
+        width: 213
+        height: 253
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -695,10 +698,10 @@ TextureImporter:
       name: lover_8_21
       rect:
         serializedVersion: 2
-        x: 943
-        y: 921
-        width: 14
-        height: 17
+        x: 717
+        y: 908
+        width: 59
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -716,10 +719,10 @@ TextureImporter:
       name: lover_8_22
       rect:
         serializedVersion: 2
-        x: 411
-        y: 649
-        width: 177
-        height: 244
+        x: 776
+        y: 901
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -737,10 +740,10 @@ TextureImporter:
       name: lover_8_23
       rect:
         serializedVersion: 2
-        x: 674
-        y: 675
-        width: 70
-        height: 213
+        x: 886
+        y: 902
+        width: 31
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -758,10 +761,10 @@ TextureImporter:
       name: lover_8_24
       rect:
         serializedVersion: 2
-        x: 744
-        y: 819
-        width: 118
-        height: 77
+        x: 706
+        y: 888
+        width: 10
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -779,10 +782,10 @@ TextureImporter:
       name: lover_8_25
       rect:
         serializedVersion: 2
-        x: 862
-        y: 819
-        width: 93
-        height: 82
+        x: 706
+        y: 675
+        width: 70
+        height: 213
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -800,10 +803,10 @@ TextureImporter:
       name: lover_8_26
       rect:
         serializedVersion: 2
-        x: 955
-        y: 859
-        width: 67
-        height: 35
+        x: 777
+        y: 841
+        width: 116
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -821,10 +824,10 @@ TextureImporter:
       name: lover_8_27
       rect:
         serializedVersion: 2
-        x: 744
-        y: 737
-        width: 198
-        height: 82
+        x: 894
+        y: 835
+        width: 35
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -842,10 +845,10 @@ TextureImporter:
       name: lover_8_28
       rect:
         serializedVersion: 2
-        x: 956
-        y: 742
-        width: 59
-        height: 116
+        x: 776
+        y: 637
+        width: 79
+        height: 203
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -863,10 +866,10 @@ TextureImporter:
       name: lover_8_29
       rect:
         serializedVersion: 2
-        x: 610
-        y: 3
-        width: 146
-        height: 672
+        x: 855
+        y: 637
+        width: 82
+        height: 198
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -884,10 +887,10 @@ TextureImporter:
       name: lover_8_30
       rect:
         serializedVersion: 2
-        x: 756
-        y: 658
-        width: 203
-        height: 79
+        x: 937
+        y: 757
+        width: 83
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -905,10 +908,10 @@ TextureImporter:
       name: lover_8_31
       rect:
         serializedVersion: 2
-        x: 756
-        y: 582
-        width: 216
-        height: 76
+        x: 941
+        y: 720
+        width: 22
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -926,10 +929,10 @@ TextureImporter:
       name: lover_8_32
       rect:
         serializedVersion: 2
-        x: 959
-        y: 658
-        width: 64
-        height: 83
+        x: 963
+        y: 714
+        width: 65
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -947,10 +950,10 @@ TextureImporter:
       name: lover_8_33
       rect:
         serializedVersion: 2
-        x: 972
-        y: 610
-        width: 32
-        height: 48
+        x: 1020
+        y: 757
+        width: 19
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -968,10 +971,10 @@ TextureImporter:
       name: lover_8_34
       rect:
         serializedVersion: 2
-        x: 411
-        y: 542
-        width: 19
-        height: 57
+        x: 497
+        y: 649
+        width: 38
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -989,10 +992,10 @@ TextureImporter:
       name: lover_8_35
       rect:
         serializedVersion: 2
-        x: 436
-        y: 6
-        width: 173
-        height: 642
+        x: 535
+        y: 649
+        width: 53
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1010,10 +1013,10 @@ TextureImporter:
       name: lover_8_36
       rect:
         serializedVersion: 2
-        x: 756
-        y: 329
-        width: 209
-        height: 253
+        x: 610
+        y: 3
+        width: 146
+        height: 672
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1031,10 +1034,10 @@ TextureImporter:
       name: lover_8_37
       rect:
         serializedVersion: 2
-        x: 965
-        y: 510
-        width: 43
-        height: 69
+        x: 937
+        y: 637
+        width: 18
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1052,10 +1055,10 @@ TextureImporter:
       name: lover_8_38
       rect:
         serializedVersion: 2
-        x: 972
-        y: 579
-        width: 51
-        height: 31
+        x: 963
+        y: 545
+        width: 76
+        height: 169
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1094,10 +1097,10 @@ TextureImporter:
       name: lover_8_40
       rect:
         serializedVersion: 2
-        x: 965
-        y: 504
-        width: 7
-        height: 10
+        x: 411
+        y: 542
+        width: 15
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1115,10 +1118,10 @@ TextureImporter:
       name: lover_8_41
       rect:
         serializedVersion: 2
-        x: 1008
-        y: 500
-        width: 15
-        height: 34
+        x: 436
+        y: 6
+        width: 173
+        height: 642
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1136,10 +1139,10 @@ TextureImporter:
       name: lover_8_42
       rect:
         serializedVersion: 2
-        x: 432
-        y: 493
-        width: 8
-        height: 9
+        x: 756
+        y: 329
+        width: 207
+        height: 308
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1157,10 +1160,10 @@ TextureImporter:
       name: lover_8_43
       rect:
         serializedVersion: 2
-        x: 985
-        y: 444
-        width: 20
-        height: 59
+        x: 963
+        y: 329
+        width: 76
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1178,10 +1181,10 @@ TextureImporter:
       name: lover_8_44
       rect:
         serializedVersion: 2
-        x: 1005
-        y: 459
-        width: 18
-        height: 41
+        x: 432
+        y: 493
+        width: 8
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1199,10 +1202,10 @@ TextureImporter:
       name: lover_8_45
       rect:
         serializedVersion: 2
-        x: 968
-        y: 405
-        width: 18
-        height: 39
+        x: 956
+        y: 492
+        width: 6
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1220,10 +1223,10 @@ TextureImporter:
       name: lover_8_46
       rect:
         serializedVersion: 2
-        x: 1005
-        y: 398
-        width: 18
-        height: 61
+        x: 757
+        y: 2
+        width: 254
+        height: 326
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1241,10 +1244,10 @@ TextureImporter:
       name: lover_8_47
       rect:
         serializedVersion: 2
-        x: 965
-        y: 329
-        width: 20
-        height: 64
+        x: 1012
+        y: 160
+        width: 24
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1262,10 +1265,10 @@ TextureImporter:
       name: lover_8_48
       rect:
         serializedVersion: 2
-        x: 986
-        y: 329
-        width: 34
-        height: 69
+        x: 1012
+        y: 119
+        width: 23
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1283,10 +1286,10 @@ TextureImporter:
       name: lover_8_49
       rect:
         serializedVersion: 2
-        x: 553
-        y: 2
-        width: 36
-        height: 7
+        x: 1016
+        y: 85
+        width: 15
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1304,9 +1307,9 @@ TextureImporter:
       name: lover_8_50
       rect:
         serializedVersion: 2
-        x: 642
-        y: 1
-        width: 35
+        x: 553
+        y: 2
+        width: 36
         height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1325,10 +1328,10 @@ TextureImporter:
       name: lover_8_51
       rect:
         serializedVersion: 2
-        x: 757
-        y: 2
-        width: 254
-        height: 326
+        x: 642
+        y: 1
+        width: 35
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1338,6 +1341,27 @@ TextureImporter:
       bones: []
       spriteID: 90a725eb44a315620800000000000000
       internalID: 2761052113480088073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_8_52
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1
+        width: 18
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57fb1d58b6f27490800000000000000
+      internalID: -7749860737054673059
       vertices: []
       indices: 
       edges: []
@@ -1401,6 +1425,7 @@ TextureImporter:
       lover_8_5: -2998107677629966649
       lover_8_50: -98315321235798205
       lover_8_51: 2761052113480088073
+      lover_8_52: -7749860737054673059
       lover_8_6: 3411837204331759477
       lover_8_7: 3623108409533711453
       lover_8_8: -6265921102044911793

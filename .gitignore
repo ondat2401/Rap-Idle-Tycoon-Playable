@@ -53,3 +53,10 @@ crashlytics-build.properties
 
 # Temp files
 _lfscheck.txt
+
+# Luna Playworks build/temp output
+[Ll]una[Tt]emp/
+LunaTemp/
+
+# Agent temp files
+_*.txt

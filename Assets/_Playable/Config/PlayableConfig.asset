@@ -46,20 +46,16 @@ MonoBehaviour:
   _emojiSpreadX: 250
   _emojiDuration: 0.5
   _startSkin:
-    Mic: mic_1
+    Mic: 
+    Outfit: 
+    Head: 
+    Jewel: 
+  _clothesSkins:
+  - Mic: mic_1
     Outfit: outfit_3
     Head: head_1
     Jewel: jewel_3
-  _clothesSkins:
-  - Mic: mic_4
+  - Mic: mic_2
     Outfit: outfit_9
-    Head: head_7
-    Jewel: jewel_9
-  - Mic: mic_5
-    Outfit: outfit_9
-    Head: head_7
-    Jewel: jewel_9
-  - Mic: mic_6
-    Outfit: outfit_9
-    Head: head_7
+    Head: head_9
     Jewel: jewel_9

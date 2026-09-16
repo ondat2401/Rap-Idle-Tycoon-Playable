@@ -34,6 +34,9 @@ namespace _Playable.Runtime.Flow
         [Header("Config")]
         [SerializeField] private PlayableConfig _config;
 
+        [Tooltip("Cau hinh text: tieu de nut Dialog/Car/Pardon va noi dung bubble RapHint/PraiseA/PraiseB.")]
+        [SerializeField] private PlayableTextConfig _textConfig;
+
         [Header("He thong")]
         [SerializeField] private PlayableAudio _audio;
         [SerializeField] private PlayableExit _exit;
@@ -153,6 +156,8 @@ namespace _Playable.Runtime.Flow
             this._stage.ResetToInitial();
             this._stage.Man.Initialize(this._config.StartSkin);
 
+            this.ApplyTextConfig();
+
             this._hud.Initialize(this._config.MoneyGoal, this._config.StartMoney);
             this._hud.Show();
 
@@ -177,6 +182,35 @@ namespace _Playable.Runtime.Flow
             }
 
             this._audio?.PlayBeatLoop();
+        }
+
+        /// <summary>Ap text tu PlayableTextConfig cho cac nut lua chon va bong bong da liet ke.</summary>
+        private void ApplyTextConfig()
+        {
+            if (this._textConfig == null)
+            {
+                return;
+            }
+
+            this._dialogGroup?.SetTitles(this._textConfig.DialogTitles);
+            this._carGroup?.SetTitles(this._textConfig.CarTitles);
+            this._pardonGroup?.SetTitles(this._textConfig.PardonTitles);
+
+            if (this._bubbles != null)
+            {
+                SetBubbleText(BubbleRapHint, this._textConfig.BubbleRapHint);
+                SetBubbleText(BubblePraiseA, this._textConfig.BubblePraiseA);
+                SetBubbleText(BubblePraiseB, this._textConfig.BubblePraiseB);
+            }
+        }
+
+        private void SetBubbleText(int index, string text)
+        {
+            if (index >= 0 && index < this._bubbles.Length && this._bubbles[index] != null
+                && !string.IsNullOrEmpty(text))
+            {
+                this._bubbles[index].SetText(text);
+            }
         }
 
         private void HideGroups()

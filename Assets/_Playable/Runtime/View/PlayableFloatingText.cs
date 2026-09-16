@@ -1,6 +1,6 @@
 using _Playable.Runtime.Core;
-using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace _Playable.Runtime.View
 {
@@ -11,7 +11,7 @@ namespace _Playable.Runtime.View
     public sealed class PlayableFloatingText : MonoBehaviour
     {
         [SerializeField] private RectTransform _content;
-        [SerializeField] private TMP_Text _label;
+        [SerializeField] private Text _label;
         [SerializeField] private Vector2 _bounceDelta = new Vector2(0f, 15f);
         [SerializeField] private float _bounceHalfDuration = 0.6f;
 
@@ -28,7 +28,7 @@ namespace _Playable.Runtime.View
         {
             if (this._label != null)
             {
-                this._label.SetText(text);
+                this._label.text = text;
             }
         }
 

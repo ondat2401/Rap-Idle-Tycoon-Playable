@@ -1,1 +1,0 @@
-namespace Amanotes.MagicTiles3 {}

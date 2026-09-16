@@ -5,7 +5,6 @@ using _Playable.Runtime.Core;
 using _Playable.Runtime.Flow;
 using _Playable.Runtime.View;
 using Spine.Unity;
-using TMPro;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
@@ -30,7 +29,7 @@ namespace _Playable.Editor
         private const string PrefabDir = Root + "/Prefabs";
         private const string ConfigPath = Root + "/Config/PlayableConfig.asset";
         private const string ScenePath = Root + "/Scenes/PlayableDemo.unity";
-        private const string FontPath = Root + "/Art/Font/Lalezar-Regular SDF.asset";
+        private const string FontPath = "Assets/TextMesh Pro/Fonts/LiberationSans.ttf";
 
         private const string BubblePrefabPath = PrefabDir + "/PB_Bubble.prefab";
         private const string ChoiceButtonPrefabPath = PrefabDir + "/PB_ChoiceButton.prefab";
@@ -51,13 +50,13 @@ namespace _Playable.Editor
         private static readonly Color TextDark = new Color(0.13f, 0.11f, 0.09f);
         private static readonly Color TextLight = Color.white;
 
-        private static TMP_FontAsset s_font;
+        private static Font s_font;
 
         [MenuItem("Tools/Playable/Rebuild Scene And Prefabs")]
         public static void BuildAll()
         {
             Util.ClearCache();
-            s_font = Util.Load<TMP_FontAsset>(FontPath);
+            s_font = Util.Load<Font>(FontPath);
 
             EnsureFolders();
             PlayableConfig config = EnsureConfig();
@@ -283,11 +282,11 @@ namespace _Playable.Editor
             Image frame = Util.NewStretchImage("Frame", rect, Util.LoadSprite("Ui", "box_chat"));
             frame.type = Image.Type.Sliced;
 
-            TextMeshProUGUI label = Util.NewText("Label", rect, "...", 44f, s_font, TextDark);
+            Text label = Util.NewText("Label", rect, "...", 44f, s_font, TextDark);
             Util.Stretch(label.rectTransform);
             label.rectTransform.offsetMin = new Vector2(40f, 40f);
             label.rectTransform.offsetMax = new Vector2(-40f, -40f);
-            label.enableWordWrapping = true;
+            label.horizontalOverflow = HorizontalWrapMode.Wrap;
 
             var view = go.AddComponent<PlayableBubbleView>();
             Util.SetRef(view, "_group", group);
@@ -319,7 +318,7 @@ namespace _Playable.Editor
                 new Vector2(220f, 180f));
             icon.preserveAspect = true;
 
-            TextMeshProUGUI title = Util.NewText("Title", rect, string.Empty, 40f, s_font, TextLight);
+            Text title = Util.NewText("Title", rect, string.Empty, 40f, s_font, TextLight);
             Util.Anchor(title.rectTransform, new Vector2(0.5f, 1f), new Vector2(0f, -46f),
                 new Vector2(280f, 60f));
 
@@ -331,7 +330,7 @@ namespace _Playable.Editor
                 new Vector2(56f, 56f));
             coin.preserveAspect = true;
 
-            TextMeshProUGUI price = Util.NewText("Amount", priceRoot, "0", 40f, s_font, TextLight);
+            Text price = Util.NewText("Amount", priceRoot, "0", 40f, s_font, TextLight);
             Util.Anchor(price.rectTransform, new Vector2(0.5f, 0.5f), new Vector2(24f, 0f),
                 new Vector2(200f, 60f));
 
@@ -682,7 +681,7 @@ namespace _Playable.Editor
                 new Vector2(80f, 80f));
             icon.preserveAspect = true;
 
-            TextMeshProUGUI value = Util.NewText("Value", rect, "0", 56f, s_font, TextDark);
+            Text value = Util.NewText("Value", rect, "0", 56f, s_font, TextDark);
             Util.Anchor(value.rectTransform, new Vector2(0.5f, 0.5f), new Vector2(40f, 12f),
                 new Vector2(460f, 70f));
 
@@ -726,9 +725,9 @@ namespace _Playable.Editor
             RectTransform rect = Util.NewRect(name, parent);
             Util.Anchor(rect, new Vector2(0.5f, 0f), position, new Vector2(900f, 90f));
 
-            TextMeshProUGUI label = Util.NewText("Label", rect, content, 56f, s_font, TextLight);
+            Text label = Util.NewText("Label", rect, content, 56f, s_font, TextLight);
             Util.Stretch(label.rectTransform);
-            label.fontStyle = FontStyles.Bold;
+            label.fontStyle = FontStyle.Bold;
 
             var view = rect.gameObject.AddComponent<PlayableFloatingText>();
             Util.SetRef(view, "_content", rect);
@@ -886,9 +885,9 @@ namespace _Playable.Editor
 
             CanvasGroup group = rect.gameObject.AddComponent<CanvasGroup>();
 
-            TextMeshProUGUI label = Util.NewText("Label", rect, content, 110f, s_font, color);
+            Text label = Util.NewText("Label", rect, content, 110f, s_font, color);
             Util.Stretch(label.rectTransform);
-            label.fontStyle = FontStyles.Bold;
+            label.fontStyle = FontStyle.Bold;
 
             rect.gameObject.SetActive(false);
             return group;
@@ -931,11 +930,11 @@ namespace _Playable.Editor
             Button logoButton = logoRect.gameObject.AddComponent<Button>();
             logoButton.targetGraphic = logoImage;
 
-            TextMeshProUGUI title = Util.NewText("Title", rect, "Live the rags-to-riches dream", 52f, s_font,
+            Text title = Util.NewText("Title", rect, "Live the rags-to-riches dream", 52f, s_font,
                 TextLight);
             Util.Anchor(title.rectTransform, new Vector2(0.5f, 0.5f), new Vector2(0f, -60f),
                 new Vector2(900f, 120f));
-            title.enableWordWrapping = true;
+            title.horizontalOverflow = HorizontalWrapMode.Wrap;
 
             RectTransform downloadRect = Util.NewRect("BtnDownload", rect);
             Util.Anchor(downloadRect, new Vector2(0.5f, 0.5f), new Vector2(0f, -280f),
@@ -946,10 +945,10 @@ namespace _Playable.Editor
             Button downloadButton = downloadRect.gameObject.AddComponent<Button>();
             downloadButton.targetGraphic = downloadImage;
 
-            TextMeshProUGUI downloadLabel = Util.NewText("Label", downloadRect, "PLAY NOW", 56f, s_font,
+            Text downloadLabel = Util.NewText("Label", downloadRect, "PLAY NOW", 56f, s_font,
                 TextLight);
             Util.Stretch(downloadLabel.rectTransform);
-            downloadLabel.fontStyle = FontStyles.Bold;
+            downloadLabel.fontStyle = FontStyle.Bold;
 
             rect.gameObject.SetActive(false);
             return (rect.gameObject, new[] { logoButton, downloadButton });

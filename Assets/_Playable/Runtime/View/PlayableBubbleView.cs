@@ -1,7 +1,7 @@
 using System.Collections;
 using _Playable.Runtime.Core;
-using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace _Playable.Runtime.View
 {
@@ -13,7 +13,7 @@ namespace _Playable.Runtime.View
     {
         [SerializeField] private CanvasGroup _group;
         [SerializeField] private RectTransform _content;
-        [SerializeField] private TMP_Text _label;
+        [SerializeField] private Text _label;
 
         [Header("Fade")]
         [SerializeField] private float _fadeDuration = 0.25f;
@@ -51,7 +51,7 @@ namespace _Playable.Runtime.View
         {
             if (this._label != null)
             {
-                this._label.SetText(text);
+                this._label.text = text;
             }
         }
 
