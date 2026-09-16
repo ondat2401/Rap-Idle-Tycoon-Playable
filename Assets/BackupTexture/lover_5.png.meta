@@ -1,0 +1,1189 @@
+fileFormatVersion: 2
+guid: 9620979a8d5f72f4ab8e87e06796bf81
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3889366218527205479
+    second: lover_5_0
+  - first:
+      213: 8014168544946051027
+    second: lover_5_1
+  - first:
+      213: 2101469756938857004
+    second: lover_5_2
+  - first:
+      213: -3639037704542434811
+    second: lover_5_3
+  - first:
+      213: -4275315364630000300
+    second: lover_5_4
+  - first:
+      213: -1310499286758875871
+    second: lover_5_5
+  - first:
+      213: 4705856871617676955
+    second: lover_5_6
+  - first:
+      213: 4087159740549150570
+    second: lover_5_7
+  - first:
+      213: -2442445612818521242
+    second: lover_5_8
+  - first:
+      213: -555354352826368008
+    second: lover_5_9
+  - first:
+      213: -2579396468839471939
+    second: lover_5_10
+  - first:
+      213: 4019182482290413154
+    second: lover_5_11
+  - first:
+      213: 7009203546999333562
+    second: lover_5_12
+  - first:
+      213: -9129372071873525705
+    second: lover_5_13
+  - first:
+      213: 9133745187564311028
+    second: lover_5_14
+  - first:
+      213: 4172735368118519385
+    second: lover_5_15
+  - first:
+      213: -6566427809616267054
+    second: lover_5_16
+  - first:
+      213: 5389327354954546195
+    second: lover_5_17
+  - first:
+      213: -3717705855728953620
+    second: lover_5_18
+  - first:
+      213: -4196664213665331132
+    second: lover_5_19
+  - first:
+      213: 7859468597869015788
+    second: lover_5_20
+  - first:
+      213: 7954868655205329782
+    second: lover_5_21
+  - first:
+      213: 56871346086052027
+    second: lover_5_22
+  - first:
+      213: 8269355013555587240
+    second: lover_5_23
+  - first:
+      213: -2591565076817654748
+    second: lover_5_24
+  - first:
+      213: 1273738472922099048
+    second: lover_5_25
+  - first:
+      213: -7556791527632106126
+    second: lover_5_26
+  - first:
+      213: -6978056618585157942
+    second: lover_5_27
+  - first:
+      213: 7248609493336475638
+    second: lover_5_28
+  - first:
+      213: -8154317505457595968
+    second: lover_5_29
+  - first:
+      213: 6024823475514046548
+    second: lover_5_30
+  - first:
+      213: 5868723652235475474
+    second: lover_5_31
+  - first:
+      213: -1329445201958811635
+    second: lover_5_32
+  - first:
+      213: 6249644588270272285
+    second: lover_5_33
+  - first:
+      213: 9122950402349430184
+    second: lover_5_34
+  - first:
+      213: 1932230385588332144
+    second: lover_5_35
+  - first:
+      213: 352268206850546115
+    second: lover_5_36
+  - first:
+      213: -4421034638133409727
+    second: lover_5_37
+  - first:
+      213: 3002441427264117291
+    second: lover_5_38
+  - first:
+      213: 4099392448209791634
+    second: lover_5_39
+  - first:
+      213: -5225560092855791265
+    second: lover_5_40
+  - first:
+      213: 1337256501095553381
+    second: lover_5_41
+  - first:
+      213: 1070998244485502344
+    second: lover_5_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lover_5_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 993
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997184fe702360ac0800000000000000
+      internalID: -3889366218527205479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 977
+        width: 60
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d75e9ba4db083f60800000000000000
+      internalID: 8014168544946051027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 993
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a21902c9be92d10800000000000000
+      internalID: 2101469756938857004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_3
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 993
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ace78fc7a8f7dc0800000000000000
+      internalID: -3639037704542434811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_4
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 970
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d8574d3570ba4c0800000000000000
+      internalID: -4275315364630000300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 970
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d955e87db20dde0800000000000000
+      internalID: -1310499286758875871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_6
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 922
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b964a9c54ef8e4140800000000000000
+      internalID: 4705856871617676955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_7
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 981
+        width: 62
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67b5bb112288b830800000000000000
+      internalID: 4087159740549150570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_8
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 981
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663adb0e7a0ba1ed0800000000000000
+      internalID: -2442445612818521242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_9
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 919
+        width: 206
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff3153982cfa48f0800000000000000
+      internalID: -555354352826368008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 970
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db42debe394243cd0800000000000000
+      internalID: -2579396468839471939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_11
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 891
+        width: 103
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e84605c2107c730800000000000000
+      internalID: 4019182482290413154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_12
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 923
+        width: 129
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2ad495d71b54160800000000000000
+      internalID: 7009203546999333562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_13
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 919
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7384b995874fd4180800000000000000
+      internalID: -9129372071873525705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_14
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 944
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f154bdfad491ce70800000000000000
+      internalID: 9133745187564311028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 558
+        width: 257
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956c96e85b888e930800000000000000
+      internalID: 4172735368118519385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_16
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 789
+        width: 224
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8739492bc5fd4a0800000000000000
+      internalID: -6566427809616267054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_17
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 848
+        width: 212
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c7c5aecacbaca40800000000000000
+      internalID: 5389327354954546195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_18
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 916
+        width: 52
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6d2e1b83e086cc0800000000000000
+      internalID: -3717705855728953620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_19
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 888
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44842eee12472c5c0800000000000000
+      internalID: -4196664213665331132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_20
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 558
+        width: 114
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2f15b6c01721d60800000000000000
+      internalID: 7859468597869015788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_21
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 856
+        width: 120
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b276c25ee556e60800000000000000
+      internalID: 7954868655205329782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_22
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 798
+        width: 67
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb08b5d103c0ac000800000000000000
+      internalID: 56871346086052027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_23
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 773
+        width: 215
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a883986296a2c270800000000000000
+      internalID: 8269355013555587240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_24
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 773
+        width: 93
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42cc9f71b49e80cd0800000000000000
+      internalID: -2591565076817654748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_25
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 734
+        width: 83
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d254f746a3da110800000000000000
+      internalID: 1273738472922099048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_26
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 798
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d8ec9a422e02790800000000000000
+      internalID: -7556791527632106126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_27
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 548
+        width: 199
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace0baa0a76f82f90800000000000000
+      internalID: -6978056618585157942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_28
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 687
+        width: 286
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f748ddedeb389460800000000000000
+      internalID: 7248609493336475638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_29
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 718
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c95375ae6b06de80800000000000000
+      internalID: -8154317505457595968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_30
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 666
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458f274b7097c9350800000000000000
+      internalID: 6024823475514046548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_31
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 541
+        width: 83
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21abd606115e17150800000000000000
+      internalID: 5868723652235475474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 350
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08c5ece1acdc8de0800000000000000
+      internalID: -1329445201958811635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_33
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 548
+        width: 258
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1fba4814a23bb650800000000000000
+      internalID: 6249644588270272285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_34
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 548
+        width: 77
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a57b833e0b3b9e70800000000000000
+      internalID: 9122950402349430184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_35
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 541
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076653d5c49a0da10800000000000000
+      internalID: 1932230385588332144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_36
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 321
+        width: 553
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c99df6511283e400800000000000000
+      internalID: 352268206850546115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_37
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 321
+        width: 98
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1484c569b6455a2c0800000000000000
+      internalID: -4421034638133409727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_38
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 175
+        width: 653
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a9efa0290daa920800000000000000
+      internalID: 3002441427264117291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_39
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2
+        width: 637
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29aa67e46b7f3e830800000000000000
+      internalID: 4099392448209791634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_40
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 117
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f519fd028c41b77b0800000000000000
+      internalID: -5225560092855791265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_41
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 82
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569d161e3b3ee8210800000000000000
+      internalID: 1337256501095553381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lover_5_42
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88510ad9a33fcde00800000000000000
+      internalID: 1070998244485502344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      lover_5_0: -3889366218527205479
+      lover_5_1: 8014168544946051027
+      lover_5_10: -2579396468839471939
+      lover_5_11: 4019182482290413154
+      lover_5_12: 7009203546999333562
+      lover_5_13: -9129372071873525705
+      lover_5_14: 9133745187564311028
+      lover_5_15: 4172735368118519385
+      lover_5_16: -6566427809616267054
+      lover_5_17: 5389327354954546195
+      lover_5_18: -3717705855728953620
+      lover_5_19: -4196664213665331132
+      lover_5_2: 2101469756938857004
+      lover_5_20: 7859468597869015788
+      lover_5_21: 7954868655205329782
+      lover_5_22: 56871346086052027
+      lover_5_23: 8269355013555587240
+      lover_5_24: -2591565076817654748
+      lover_5_25: 1273738472922099048
+      lover_5_26: -7556791527632106126
+      lover_5_27: -6978056618585157942
+      lover_5_28: 7248609493336475638
+      lover_5_29: -8154317505457595968
+      lover_5_3: -3639037704542434811
+      lover_5_30: 6024823475514046548
+      lover_5_31: 5868723652235475474
+      lover_5_32: -1329445201958811635
+      lover_5_33: 6249644588270272285
+      lover_5_34: 9122950402349430184
+      lover_5_35: 1932230385588332144
+      lover_5_36: 352268206850546115
+      lover_5_37: -4421034638133409727
+      lover_5_38: 3002441427264117291
+      lover_5_39: 4099392448209791634
+      lover_5_4: -4275315364630000300
+      lover_5_40: -5225560092855791265
+      lover_5_41: 1337256501095553381
+      lover_5_42: 1070998244485502344
+      lover_5_5: -1310499286758875871
+      lover_5_6: 4705856871617676955
+      lover_5_7: 4087159740549150570
+      lover_5_8: -2442445612818521242
+      lover_5_9: -555354352826368008
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

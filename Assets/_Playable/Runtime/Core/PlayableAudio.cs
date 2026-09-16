@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using _Playable.Runtime.Config;
 using UnityEngine;
 
 namespace _Playable.Runtime.Core
@@ -22,7 +23,11 @@ namespace _Playable.Runtime.Core
             public float Volume;
         }
 
-        [Header("Clip map - de trong nhung clip chua co")]
+        [Header("Config")]
+        [Tooltip("Nguon am thanh chinh. Neu gan config nay thi lay clip tu day, bo qua _entries inline.")]
+        [SerializeField] private PlayableAudioConfig _config;
+
+        [Header("Clip map inline (fallback khi khong co config)")]
         [SerializeField] private Entry[] _entries = new Entry[0];
 
         [Header("Source")]
@@ -32,7 +37,8 @@ namespace _Playable.Runtime.Core
 
         [SerializeField] private bool _muted;
 
-        private readonly Dictionary<PlayableSfx, Entry> _map = new Dictionary<PlayableSfx, Entry>();
+        private readonly Dictionary<PlayableSfx, PlayableAudioConfig.Entry> _map =
+            new Dictionary<PlayableSfx, PlayableAudioConfig.Entry>();
 
         private void Awake()
         {
@@ -43,6 +49,14 @@ namespace _Playable.Runtime.Core
         private void BuildMap()
         {
             this._map.Clear();
+
+            // Uu tien config SO. Neu khong co config thi dung _entries inline lam fallback.
+            if (this._config != null)
+            {
+                this._config.PopulateMap(this._map);
+                return;
+            }
+
             if (this._entries == null)
             {
                 return;
@@ -55,7 +69,12 @@ namespace _Playable.Runtime.Core
                     continue;
                 }
 
-                this._map[entry.Sfx] = entry;
+                this._map[entry.Sfx] = new PlayableAudioConfig.Entry
+                {
+                    Sfx = entry.Sfx,
+                    Clip = entry.Clip,
+                    Volume = entry.Volume
+                };
             }
         }
 
@@ -84,7 +103,7 @@ namespace _Playable.Runtime.Core
         /// <summary>Phat mot lan. Bo qua neu chua co clip.</summary>
         public void Play(PlayableSfx sfx)
         {
-            if (this._muted || !this._map.TryGetValue(sfx, out Entry entry))
+            if (this._muted || !this._map.TryGetValue(sfx, out PlayableAudioConfig.Entry entry))
             {
                 return;
             }
@@ -92,16 +111,26 @@ namespace _Playable.Runtime.Core
             this._sfxSource.PlayOneShot(entry.Clip, Mathf.Approximately(entry.Volume, 0f) ? 1f : entry.Volume);
         }
 
-        /// <summary>Bat beat nen lap.</summary>
+        /// <summary>Bat beat nen lap. Lay clip tu config SO.</summary>
         public void PlayBeatLoop()
         {
-            this.PlayLoop(this._beatSource, PlayableSfx.BeatLoop);
+            if (this._config == null)
+            {
+                return;
+            }
+
+            this.PlayLoop(this._beatSource, this._config.BeatClip, this._config.BeatVolume);
         }
 
-        /// <summary>Bat giong rap lap.</summary>
+        /// <summary>Bat giong rap lap. Lay clip tu config SO.</summary>
         public void PlayVocalLoop()
         {
-            this.PlayLoop(this._vocalSource, PlayableSfx.Vocal);
+            if (this._config == null)
+            {
+                return;
+            }
+
+            this.PlayLoop(this._vocalSource, this._config.VocalClip, this._config.VocalVolume);
         }
 
         public void StopVocal()
@@ -130,15 +159,15 @@ namespace _Playable.Runtime.Core
             }
         }
 
-        private void PlayLoop(AudioSource source, PlayableSfx sfx)
+        private void PlayLoop(AudioSource source, AudioClip clip, float volume)
         {
-            if (this._muted || source == null || !this._map.TryGetValue(sfx, out Entry entry))
+            if (this._muted || source == null || clip == null)
             {
                 return;
             }
 
-            source.clip = entry.Clip;
-            source.volume = Mathf.Approximately(entry.Volume, 0f) ? 1f : entry.Volume;
+            source.clip = clip;
+            source.volume = Mathf.Approximately(volume, 0f) ? 1f : volume;
             source.loop = true;
             source.Play();
         }

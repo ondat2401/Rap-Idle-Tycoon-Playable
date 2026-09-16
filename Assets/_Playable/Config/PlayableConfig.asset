@@ -45,17 +45,29 @@ MonoBehaviour:
   _emojiRiseDistance: 300
   _emojiSpreadX: 250
   _emojiDuration: 0.5
-  _startSkin:
-    Mic: 
-    Outfit: 
-    Head: 
-    Jewel: 
+  _startSkinOption: 0
+  _skeletonA: {fileID: 11400000, guid: 286800ad9385d3f4ca8ff73aee3646bb, type: 2}
+  _skeletonB: {fileID: 11400000, guid: 8310dda30c2c72844be5c92f170eefd6, type: 2}
+  _startSkinA:
+    Mic: mic_1
+    Outfit: outfit_3
+    Head: head_1
+    Jewel: jewel_3
+  _startSkinB:
+    Mic: mic_2
+    Outfit: outfit_5
+    Head: head_2
+    Jewel: jewel_5
   _clothesSkins:
   - Mic: mic_1
     Outfit: outfit_3
     Head: head_1
     Jewel: jewel_3
   - Mic: mic_2
+    Outfit: outfit_9
+    Head: head_9
+    Jewel: jewel_9
+  - Mic: mic_3
     Outfit: outfit_9
     Head: head_9
     Jewel: jewel_9
